@@ -1,0 +1,1282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script   language="javascript">
+ 	function open_shuoming(ids)
+    {	
+        window.open("index.php?module=apply&act=print_note&tbproj_id="+ids, "打印说明", "height=600,width=800,top=100,left=100,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no");
+    }
+ </script>
+<title>申报书打印</title>
+<style type="text/css">
+<!--
+.STYLE4 {font-size: 36px}
+.STYLE5 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.STYLE6 {font-size: 24px}
+-->
+</style>
+<style>   
+  table{border-collapse:collapse;border:solid   black;}   
+  td{border: 1px solid   black}   
+  </style>   
+<style>
+.gh{
+	position:absolute;
+	left:20px;
+	right:20px;
+	visibility: visible;
+}
+</style>
+
+<style> 
+.p{
+text-indent:2em;
+font-size:17px;
+ line-height:40px;
+ } 
+</style>
+<style> 
+.p2{
+text-indent:2em;
+font-size:16px;
+ line-height:36px;
+ } 
+</style>
+<style> 
+.p1{
+ line-height:16px;
+ font-size:16px;
+ } 
+</style>
+<style> 
+.middle-demo-2{
+padding-top: 24px;
+padding-bottom: 24px;
+} 
+</style>
+<style>
+.def{
+	border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.def1{
+	border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-bottom-color:#FFFFFF;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.abc{border-left-width:1px;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-color:#000000;
+border-bottom-color:#000000;
+able-layout:fixed;
+word-break:break-all; 
+ord-wrap: break-word;
+font-size: 14px;
+letter-spacing: 1px;
+font-family: "宋体";
+line-height: 1.8; }
+.abc1 {
+	border-left-width:1px;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:0px;
+	border-bottom-color:#CCCCCC;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-left-color: #000000;
+}
+.abc2{
+	border-left-width:1px;
+	border-top-width:0px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-left-color: #000000;
+}
+.abc3{
+	border-left-width:1px;
+	border-top-width:0px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-left-color: #000000;
+}
+.STYLE8 {
+	color: #000000;
+	font-weight: bold;
+	font-size: 16px;
+}
+.bm{
+	text-decoration: underline;
+}
+.STYLE10 {font-size: 18px}
+.STYLE11 {font-size: 16px}
+.abc4 {border-left-width:1px;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-color:#000000;
+border-bottom-color:#000000;
+able-layout:fixed;
+word-break:break-all; 
+ord-wrap: break-word;
+font-size: 14px;
+letter-spacing: 1px;
+font-family: "宋体";
+line-height: 1.8; }
+.abc5 {border-left-width:1px;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-color:#000000;
+border-bottom-color:#000000;
+able-layout:fixed;
+word-break:break-all; 
+ord-wrap: break-word;
+font-size: 14px;
+letter-spacing: 1px;
+font-family: "宋体";
+line-height: 1.8; }
+.btn {
+ BORDER-RIGHT: #7b9ebd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7b9ebd 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); BORDER-LEFT: #7b9ebd 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #7b9ebd 1px solid
+}
+.abc6 {border-left-width:1px;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-color:#000000;
+border-bottom-color:#000000;
+able-layout:fixed;
+word-break:break-all; 
+ord-wrap: break-word;
+font-size: 14px;
+letter-spacing: 1px;
+font-family: "宋体";
+line-height: 1.8; }
+.font_tishi {
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-family: "宋体";
+	line-height: 1.8;
+	color: #777777;
+}
+.def11 {border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-bottom-color:#FFFFFF;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.def11 {border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-bottom-color:#FFFFFF;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.def2 {border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+</style>
+<script language="javascript">   
+function getObject(id)
+{	if(document.getElementById)
+	{	return document.getElementById(id);}
+	else if(document.all)
+	{	return document.all[id];}
+	else if(document.layers)
+	{	return document.layers[id];}
+}
+function shuoming(){
+	getObject('OutText').innerHTML = '';
+	OpenWord();
+}
+function OpenWord(){
+	abc.style.border = 0;
+	ExcelSheet = new ActiveXObject('Word.Application');
+	ExcelSheet.Application.Visible = true;
+	var mydoc = ExcelSheet.Documents.Add('',0,1);
+	myRange = mydoc.Range(0,1) ;
+	var sel = abc.document.body.createTextRange();
+	sel.select();
+	abc.document.execCommand('Copy');
+	sel.moveEnd('character');
+	myRange.Paste();
+	ExcelSheet.ActiveWindow.ActivePane.View.Type=wdPrintView;
+}
+</script>
+</head>
+<body>
+<p align="center">
+<table width="680" border="0" align="center" cellpadding="0" cellspacing="0" class="def11">
+  <tr>
+    <td height="5" align="right" valign="bottom"  width="17%"class="def11" ><span class="STYLE8">申报编号：</span></td>
+    <td class="def2"  align="left" width="21%" style="margin-bottom:0px;margin-top:20px" valign="bottom"><span class="STYLE11">
+      10ZC1209      &nbsp;</span></td>
+    <td valign="bottom" class="def11" align="right" width="15%"><span class="STYLE8">计划编号：</span></td>
+    <td valign="bottom" class="def2" align="left" width="19%">      &nbsp;</td>
+    <td valign="bottom" class="def11" align="right" width="11%"><span class="STYLE8">密级：</span></td>
+    <td class="def2"  align="left" width="17%" style="margin-bottom:0px;margin-top:20px" valign="bottom">&nbsp;</td>
+  </tr>
+</table>
+<p align="center">&nbsp;</p>
+</p>
+<p align="center"><span class="STYLE4"><strong>四川省科技支撑计划 </strong><br />
+  <strong>项目申报书 </strong></span></p>
+<p align="center">&nbsp;</p>
+<table width="680" border="0" align="center" cellpadding="0" cellspacing="0" class="def1">
+<tr>
+<td rowspan="8" align="right" class="def1"  width="6%" ></td>
+<td width="29%" height="65" align="right"  valign="bottom" class="def1" ><span class="STYLE8">项目名称：</span></td>
+<td class="def"  align="left" width="50%" style="margin-bottom:0px;margin-top:20px" valign="bottom"><span class="STYLE11">CDZS业务协同软件平台</span></td>
+<td rowspan="8" align="right" class="def1"  width="15%" ></td>
+</tr>
+<tr>
+<td class="def1" align="right" height="53" valign="bottom" ><span class="STYLE8">研究领域：</span></td>
+<td class="def" align="left"  valign="bottom" style="margin-bottom:0px;margin-top:20px">计算机应用</td>
+</tr>
+<tr>
+<td class="def1" align="right" height="53" valign="bottom" ><span class="STYLE8">申报单位(盖章)：</span></td>
+<td class="def"  valign="bottom" align="left" style="margin-bottom:0px;margin-top:20px"><span class="STYLE11">四川川大智胜系统集成有限公司</span></td>
+</tr>
+<tr>
+<td class="def1" align="right" height="53" valign="bottom" ><span class="STYLE8">项目负责人：</span></td>
+<td class="def" align="left" style="margin-bottom:0px;margin-top:20px" valign="bottom"><span class="STYLE11">左齐</span></td>
+</tr>
+<tr>
+<td class="def1" align="right" height="65" valign="bottom" ><span class="STYLE8">联系电话：</span></td>
+<td class="def" align="left" style="margin-bottom:0px;margin-top:20px" valign="bottom"><span class="STYLE11">13808049202</span></td>
+</tr>
+
+<tr>
+<td class="def1" align="right" height="53" valign="bottom" ><span class="STYLE8">归口部门：</span></td>
+<td class="def" align="left" style="margin-bottom:0px;margin-top:20px" valign="bottom"><span class="STYLE11">成都市科技局</span></td>
+</tr>
+<tr>
+<td  height="53" class="def1" align="right" valign="bottom" ><span class="STYLE8">项目起止年限：</span></td>
+<td class="def" align="left" style="margin-bottom:0px;margin-top:20px" valign="bottom"><span class="STYLE11">2010-01-01 至 2011-12-31</span></td>
+</tr>
+<tr>
+
+<td height="53" align="right" class="def1" valign="bottom" ><span class="STYLE8">报送日期：</span></td>
+<td class="def" align="left" style=" margin-bottom:0px;margin-top:20px" valign="bottom"><span class="STYLE11">2009 年 08 月 20 日</span></td>
+</tr>
+</table>
+<p align="center" class="STYLE10">&nbsp;</p>
+<p align="center"><span  class="STYLE5"><strong>四川省科学技术厅制  </strong></span> 
+<p align="center"><strong>二</strong><strong>0      </strong><strong>年</strong><strong>     </strong><strong>月</strong><strong> </strong><span class="STYLE5"></strong></span></p>
+<p align="center">&nbsp;</p>
+
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+
+<p align="center"><span class="STYLE6"><strong>填 报 说 明 </strong></span></p>
+<ol>
+<li>项目申报人填写项目申报书，应实事求是，表述明确。外来语要同时用原文和中文表达，第一次出现的缩略词，须注明全称。
+<li>申报人不用填写“申报编号”栏。
+<li> 归口部门是指项目申报单位所隶属的省级有关部门或所在市、州科技局。
+<li>各级政府行政机构不得作为项目申报单位，也不可以作为合作单位参与研究。
+<li>编写要求：<br />
+（1）项目符合申报指南的要求，目标定位准确，指标明确、可考核；<br />
+（2）项目任务明确，要充分考虑经济、技术等方面的可行性；<br />
+（3）项目管理与实施符合《四川省科技支撑计划管理暂行办法》；<br />
+（4）项目所需省拨经费按《四川省科技支撑计划专项经费管理暂行办法》管理和使用。<br />
+
+<li>项目申报人按申报通知规定的份数，用A4纸打印申报书，左侧装订，不得加用塑料等额外装订材料。经申报单位、归口部门审核签署意见并加盖公章后，报送四川省科技厅项目受理办公室（发展计划处）。
+<li>网址：四川省科技计划项目管理中心 125.71.214.76
+</ol>
+<p align="center"></p>
+
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+
+<p align="center" class="STYLE5" ><strong>项目信息表</strong> </p>
+<table width="680" border="0" align="center" cellpadding="3" cellspacing="0">
+  <tr>
+  <td colspan="3" align="center" width="119">项目名称</td>
+  <td colspan="8">CDZS业务协同软件平台</td>
+  </tr>
+<tr>
+  <td width="38" rowspan="4">项目<br />
+    申报<br />
+    单位</td>
+  <td colspan="2" align="center">单位名称</td>
+  <td colspan="8">四川川大智胜系统集成有限公司</td>
+  </tr>
+<tr>
+  <td colspan="2" align="center">通讯地址</td>
+  <td colspan="5">成都市高新区九兴大道12号</td>
+  <td width="52" align="center">邮编</td>
+  <td colspan="2">610041</td>
+  </tr>
+<tr>
+  <td colspan="2" align="center">单位类别</td>
+  <td colspan="8">民营企业</td>
+  </tr>
+<tr>
+  <td colspan="2" align="center">单位主管部门</td>
+  <td colspan="8"><span class="STYLE11">
+    成都市科技局  </span></td>
+  </tr>
+<tr>
+  <td rowspan="5">其他<br />
+    主要<br />
+    参加<br />
+    单位</td>
+  <td width="40" align="center">序号</td>
+  <td colspan="9" align="center">单  位  名  称</td>
+  </tr>
+<tr>
+  <td align="center">1</td>
+  <td colspan="9">四川大学</td>
+  </tr>
+<tr>
+  <td align="center">2</td>
+  <td colspan="9"></td>
+  </tr>
+<tr>
+  <td align="center">3</td>
+  <td colspan="9"></td>
+  </tr>
+<tr>
+  <td align="center">4</td>
+  <td colspan="9"></td>
+  </tr>
+<tr>
+  <td rowspan="4">项目<br />
+    负责<br />
+    人</td>
+  <td colspan="2" align="center">姓    名</td>
+  <td colspan="3">左齐</td>
+  <td width="48" align="center">性别</td>
+  <td width="41" align="center">男</td>
+  <td align="center">出生年</td>
+  <td colspan="2">1964年</td>
+  </tr>
+<tr>
+  <td colspan="2" align="center">学    历</td>
+  <td colspan="3">硕士</td>
+  <td colspan="2" align="center">职    称</td>
+  <td colspan="3">副研究员</td>
+  </tr>
+<tr>
+  <td colspan="2" align="center">E-mail</td>
+  <td colspan="8">liuancq@163.com</td>
+  </tr>
+<tr>
+  <td colspan="2" align="center">联系电话</td>
+  <td colspan="8"></td>
+  </tr>
+<tr>
+  <td colspan="2" align="center">项目组人数</td>
+  <td width="47" align="center">18    人</td>
+  <td width="65" align="center">高级</td>
+  <td width="54" align="center">7    人</td>
+  <td width="49" align="center">中级</td>
+  <td align="center">10    人</td>
+  <td align="center">初级</td>
+  <td align="center">1    人</td>
+  <td width="46" align="center">其他</td>
+  <td width="46" align="center">    人</td>
+</tr>
+<tr>
+  <td colspan="2" align="center">起始时间</td>
+  <td colspan="4">2010-01-01</td>
+  <td colspan="2" align="center">终止时间</td>
+  <td colspan="3">2011-12-31</td>
+  </tr>
+<tr>
+  <td colspan="2">所属技术领域</td>
+  <td colspan="9">信息产业与现代服务业</td>
+  </tr>
+<tr>
+  <td colspan="2">创新类型</td>
+  <td colspan="9">原始创新</td>
+  </tr>
+<tr>
+  <td colspan="2">项目概述<br />
+    (350字以内)</td>
+  <td colspan="9">本项目拟研制具有自主知识产权和核心技术的CDZS业务协同软件平台，该产品为建立企业业务协同软件提供快速构建工具和运行平台，提供一个统一的部门间协同工作的环境，包括实现数据交换（基于元数据）、数据共享（基于数据总线）、流程协作、实时通讯（沟通平台）等方面的功能。利用平台中已经建立的基础应用构件，能够针对不同用户的特点快速构建企业业务协同应用系统。项目将突破业务协同软件平台关键技术，实现产业化，并在国内企业规模化推广应用，提高企业信息化水平和工作效率，降低用户成本。项目主要创新点包括：①提出并实现了跨多种软硬件平台运行的业务协同软件平台; ②抽取出了正对我国大型企业集团通用的协同业务逻辑; ③本项目产品研制了智能客户端，兼容J2EE和.NET技术体系，同时支持C/S和B/S两种模式。</td>
+  </tr>
+<tr>
+  <td colspan="2">预期成果</td>
+  <td colspan="9">新产品（或农业新品种） 计算机软件</td>
+  </tr>
+<tr>
+  <td colspan="2">预期知识产权</td>
+  <td colspan="9">获得国家发明专利
+    0    项，省内发明专利利
+  0    项，其他
+  0    项。 </td>
+  </tr>
+<tr>
+  <td colspan="2">预期技术标准制定</td>
+  <td colspan="9">企业标准</td>
+  </tr>
+<tr>
+  <td colspan="2">产学研联合</td>
+  <td colspan="9">是</td>
+  </tr>
+<tr>
+  <td colspan="2">经费预算</td>
+  <td colspan="9">470    万元，其中省科技厅拨款
+    60    万元。 </td>
+  </tr>
+</table>
+<br />
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+<br />
+<table border="1" cellspacing="0"  style="border:none" cellpadding="0" width="680"   align="center" class="abc">
+  <tr>
+  <td valign="middle" class="abc" ><p style="font-size:16px"><strong>一、项目研究主要目标、主要内容、技术关键、技术路线和应用方案。</strong>(不超过4500字，各栏中不得出现申报单位名称和项目成员姓名.)</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="abc" height="820"><h2><span style="font-size: small">1.1项目研究主要目标<br />
+</span></h2>
+<br />
+<span style="font-size: medium"><span style="">&nbsp;&nbsp;&nbsp; 业务协同软件是个人或组织用来实现业务沟通和业务协作的应用软件，包括协同工具软件、协同软件平台、协同应用软件三种类型。<br />
+&nbsp;&nbsp;&nbsp; 协同工具软件指的是独立的，功能相对简单，用于相互间沟通的软件，包括独立的企业电子邮件系统软件，企业即时通讯系统软件，企业VOIP系统软件，企业IP电话会议系统软件，企业统一消息系统等。<br />
+&nbsp;&nbsp;&nbsp; 协同软件平台指的是提供一个协同化的架构，包括开发工具和开发环境，可以让用户或独立软件开发商在此基础上，开发最终应用的平台性软件。<br />
+&nbsp;&nbsp;&nbsp; 协同应用软件指的是帮助企业实现协同化管理和办公的最终应用软件。协同应用软件包括综合通讯、协作区（含团队协作等）、联系人管理、工作流、文档管理等类型的软件。一部分协同应用软件是在第三方协同软件平台基础上开发，另外也有一部分软件是直接在系统软件或中间件上开发而成。<br />
+&nbsp;&nbsp;&nbsp; 目前我国各地协同软件产品超过200种，这些软件大部分基于Domino或者Exchange等国外第三方协同软件平台的基础之上，缺乏自主核心技术，不仅使产品现有功能难以满足国内用户需求，而且产品的未来发展受制于国外厂商，同时也抬高了用户软件应用成本。<br />
+&nbsp;&nbsp;&nbsp; 本项目研究的主要目标是：突破业务协同软件平台关键技术，研制成功具有自主知识产权和核心技术的CDZS业务协同软件平台，并在国内企业规模化推广应用，提高企业信息化水平和工作效率，降低用户成本。该产品为建立企业业务协同软件提供快速构建工具和运行平台，提供一个统一的部门间协同工作的环境，包括实现数据交换（基于元数据）、数据共享（基于数据总线）、流程协作、实时通讯（沟通平台）等方面的功能。利用平台中已经建立的基础应用构件，能够针对不同用户的特点快速构建企业业务协同应用系统。 </span></span><span style="font-size: small">
+<h2>1.2主要内容</h2>
+<span style="font-size: medium">&nbsp;&nbsp;&nbsp; 本项目的主要内容是：研制具有自主知识产权的达到国际先进水平的业务协同软件平台，并实现产品化及推广应用。 </span>
+<h3>1.2.1CDZS业务协同软件平台总体架构</h3>
+<span style="font-size: medium">&nbsp;&nbsp;&nbsp; CDZS业务协同软件的整个系统结构为4层，如图1-1所示，由下至上分别为:<br />
+&nbsp;&nbsp;&nbsp; ①基础支撑层，包括硬件，操作系统，通用中间件等。<br />
+&nbsp;&nbsp;&nbsp; ②协同软件平台层，及本项目产品所处的层次。<br />
+&nbsp;&nbsp;&nbsp; ③协同应用软件层。<br />
+&nbsp;&nbsp;&nbsp; ④企业门户。<br />
+&nbsp;&nbsp;&nbsp; 由图1-1可以看出，本项目研发的业务协同软件平台处于基础支撑层之上，协同应用软件层之下。业务协同软件平台主要是将不同业务协同应用软件中存在的共同业务逻辑抽取出来，在此平台基础上开发业务协同应用，可以大大提高开发效率和开发质量。<br />
+</span>&nbsp;<img height="722" alt="" width="669" src="http://xmgl.scst.gov.cn/up_files/fck/2381602B-8C62-FF9A-022D-A37969F62602/image/20090820122145639.JPG" />&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: medium">&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp; <span style="font-size: medium">图1-1CDZS业务协同软件总体架构图</span></strong><br />
+<br />
+</span><span style="font-size: medium">&nbsp;&nbsp;&nbsp; 早期的业务协同应用软件都是在操作系统上直接开发的，开发技术难度大，效率低，并且不能实现跨平台。产品的可靠性，跨平台兼容性，产品可移植性都比较差。目前的业务协同应用软件大多在基础中间件层上面开发，基础中间件是通用中间件软件，如BEA公司的Weblogic等。基础中间件提供了一些网络软件开发需要的通用功能，如通信服务等。基础中间件屏蔽了操作系统的细节，在基础中间件上面开发提高了系统软件的可靠性，跨平台性，可移植性。<br />
+&nbsp;&nbsp;&nbsp; 但是，基础中间件平台只为构建业务协同应用软件系统提供非常基础的服务，这些服务甚至与业务协同的业务逻辑几乎没有关系。在此基础上的业务协同应用软件的开发仍有大量工作要做，其中，针对用户具体业务流程的适应性开发占主要地位。<br />
+&nbsp;&nbsp;&nbsp; 采用基于服务总线技术实现的业务协同软件平台，将不同业务协同应用系统中存在的共同的业务逻辑部分抽取出来，形成独立的业务协同业务软件平台层，进一步简化了应用系统的开发难度和周期，使得基于现有不同业务协同应用的集成在技术上更具可行性，这对我国企业即将建设的大量业务协同应用软件系统来说，具有非常重要的现实意义。 </span>
+<h3>1.2.2 CDZS业务协同软件平台结构</h3>
+<span style="font-size: medium">&nbsp;&nbsp;&nbsp; CDZS业务协同软件平台的结构如图1-2所示。</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="190" alt="" width="568" src="http://xmgl.scst.gov.cn/up_files/fck/2381602B-8C62-FF9A-022D-A37969F62602/image/20090820122158511.JPG" />
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><span style="font-size: medium">图1-2业务协同软件平台的结构图</span></strong><span style="font-size: medium"><br />
+</span><span style="font-size: medium"><br />
+</span><span style="font-size: medium">&nbsp;&nbsp;&nbsp; 该软件平台采用面向服务的体系结构和分布式服务总线实现。</span></p>
+<span style="font-size: medium">&nbsp;&nbsp;&nbsp; 面向服务的体系结构（SOA）是目前业界广泛接受的一种先进系统架构思想。基于这样的面向服务的体系结构，服务消费者不必关心与之通信的特定服务，因为底层基础设施或服务总线将代表消费者做出适当的选择。基础设施对请求者隐藏了尽可能多的技术。特别地，来自不同实现技术的技术规范不影响SOA用户。如果已经存在一个服务实现，我们就还应该重新考虑用一个&ldquo;更好&rdquo;的服务实现来代替，新的服务实现必须具有更好的服务质量。<br />
+&nbsp;&nbsp;&nbsp; 产生最佳SOA实现的方法之一就是，将服务总线（Service Bus，SB）作为网络上分布式服务的基础结构元素。SB集成方法通过异步的、面向消息的通信基础结构，把系统当作相互连接的离散性分布式服务。面向信息的基础结构容许独立系统之间松散耦合和面向文档的交换。<br />
+&nbsp;&nbsp;&nbsp; 分布式服务总线是服务总线的一个扩展，它按照与分布式服务代理类似的方法在各个服务平台中添加了本地总线。这些本地服务总线透明地处理本地服务协作，同时将消息传播给连接在它上面的相关的中央总线。服务的消费者不知道提供商，反之亦然。分布式服务总线既可用在业务协同软件平台内部，也适用于业务协同软件之间的松散耦合互联。 </span>
+<h3>1.2.3 本项目的具体内容</h3>
+<span style="font-size: medium">&nbsp;&nbsp;&nbsp; 根据业务协同软件平台的结构图，本项目的具体开发内容包括：<br />
+&nbsp;&nbsp;&nbsp; ① 工作流服务<br />
+&nbsp;&nbsp;&nbsp; 业务协同软件平台的工作流服务在提供后台的工作流引擎的同时，还包括两个软件模块，一是工作流定义（即服务端）；二是工作流客户端（待办事项）。基于这些模块，可以在任何一个业务处理点上引入流程。通过个人工作台的待办事项作为工作流的表示层，建立访问各子网的统一入口并实现业务处理的高度整合。<br />
+&nbsp;&nbsp;&nbsp; 本项目提供的工作流引擎严格遵循WMFC接口规范。<br />
+&nbsp;&nbsp;&nbsp; 工作流定义给用户提供了一个工作流可视化定义工具，它按WFMC的接口规范，生成标准的XPDL文档，可以运行在任何一个按WMFC标准开发的工作流基础件上。<br />
+&nbsp;&nbsp;&nbsp; 在流程定义时，参与者基于用户角色定义，角色可以与人事管理系统的部门、岗位绑定。<br />
+&nbsp;&nbsp;&nbsp; 通过待办事项列表完成工作流的执行，待办事项列表除了来自工作流的活动外，还可以接收其它系统传送的办件请求。<br />
+&nbsp;&nbsp;&nbsp; ② 身份认证服务<br />
+&nbsp;&nbsp;&nbsp; 封装安全认证方式和程序，提供统一的用户认证方式、认证人机界面和工具。采用servlet+JAAS+LDAP的方式，部署统一servlet拦截并过滤对受保护资源的访问，通过JAAS实现用户认证和授权，采用LDAP实现对安全策略数据的存储。<br />
+&nbsp;&nbsp;&nbsp; ③ 内容管理服务<br />
+&nbsp;&nbsp;&nbsp; 内容管理服务由内容选择器、逻辑层和呈现层组成。内容选择器详细说明什么文档将通过内容、文档管理系统重新获得，逻辑层通过与规则管理、用户轮廓和属性集管理一起用于为企业网站建立个性化内容，内容呈现层允许使用JSP标签和EJB访问内容。提供内容生命周期管理、基于模板动态产生内容，提供支持多人协同编辑的功能，强大的搜索引擎。<br />
+&nbsp;&nbsp;&nbsp; ④ 消息服务<br />
+&nbsp;&nbsp;&nbsp; 消息的整个流转采用闭环的方式，作为中间处理消息的用户，结束一条自身消息的同时，向上级用户发送一条新的消息，同时也向下级用户返回一条自己处理完毕的反馈消息；此外若此时某条消息用户当前不能立即做出处理，应提供向下级用户发送一条协调解决当前业务的消息，做为对用户的一种回应，这种消息可是一种群发消息（对该业务流程消息经过的所有用户）或是针对特定用户发送的消息。<br />
+&nbsp;&nbsp;&nbsp; ⑤ 数据管理服务<br />
+&nbsp;&nbsp;&nbsp; 数据管理服务是一个为各系统提供信息服务的数据库管理系统，该系统基于数据仓库和统一平台设计的思想，实现业务数据的采集、净化与存储管理以及各应用系统的信息发布、历史数据查询和统计。<br />
+&nbsp;&nbsp;&nbsp; 在数据管理服务中，通过数据管道系统实现数据集成与管理，通过数据分析系统整合所有子网的信息资源，提供决策辅助信息。<br />
+&nbsp;&nbsp;&nbsp; ⑥ 系统管理服务<br />
+&nbsp;&nbsp;&nbsp; 系统管理服务从业务系统中将一些具有共性的系统管理功能抽取出来，形成统一的权限分配机制和系统管理机制，保证各子系统在数据层、操作层具有一致性和共享数据的能力，保证所有开发具有互操作性，即互联互通。<br />
+&nbsp;&nbsp;&nbsp; 在系统管理服务方面，核心问题是保障系统的安全与稳定，因此，其重点是操作员及权限管理、数据备份等与安全有紧密联系的地方。<br />
+&nbsp;&nbsp;&nbsp; ⑦ 信息交换服务<br />
+&nbsp;&nbsp;&nbsp; 提供数据交换和共享机制，建立数据管理、传输服务和管理、路由服务和信息安全管理机制，实现协同业务系统的不同业务过程之间的数据传输、数据转换和数据映射等功能。<br />
+&nbsp;&nbsp;&nbsp; ⑧ 团队管理服务<br />
+&nbsp;&nbsp;&nbsp; 团队管理是协同系统建设的基础信息，系统建立人员、组织信息库并提供相关基础信息的统一管理软件和API接口。客户应用程序可以基于本支撑平台的信息库进行延伸，比如登录时的身份认证、资源分配的权限控制以及团队组建等。<br />
+&nbsp;&nbsp;&nbsp; ⑨ 方案管理器<br />
+&nbsp;&nbsp;&nbsp; 方案管理是按项目为单元建立网上协作模式，可以应用于各种团队活动组织、工作任务分解（WBS）、工作计划编制、项目过程管理、相关文档传阅和共享、通过电子白板实现多人在线沟通等。 </span>
+<h2>1.3技术关键</h2>
+<span style="font-size: medium">&nbsp;&nbsp;&nbsp; 本项目重点解决的技术关键问题包括：<br />
+&nbsp;&nbsp;&nbsp; （1）跨多种软硬件平台运行的业务协同软件平台实现<br />
+&nbsp;&nbsp;&nbsp; 传统的业务协同软件一般只能在某种硬件和操作系统平台上运行。如需要更换运行平台，需要大量的时间对软件进行修改和测试，以保证其可靠性。<br />
+&nbsp;&nbsp;&nbsp; 但是，我国大多数企业已建和在建的各种应用系统，由于来自多个不同厂商，运行平台和技术体制差异很大。随着硬件平台处理性能的不断提高，用户也有只通过更换硬件平台进行系统升级的需求，传统的业务协同软件厂商一般采用的是全面升级软硬件的方法，显然不能满足这种需求。同时，企业已建和待建的信息处理和应用系统也需要同业务协同软件系统进行互联，进一步突出这种需求的迫切性。<br />
+&nbsp;&nbsp;&nbsp; 项目申报单位研制的业务协同软件平台可以完全解决跨多种软硬件平台运行，但是，其技术和研发的难度将大大增加。<br />
+&nbsp;&nbsp;&nbsp; （2）通用协同业务逻辑的抽取<br />
+&nbsp;&nbsp;&nbsp; 业务协同软件平台需要将不同业务协同应用系统中存在共同的业务逻辑部分抽取出来，形成独立的协同业务基础服务层。通用协同业务逻辑的抽取将直接关系到业务协同软件平台的质量。既要把能够抽取的通用协同业务逻辑都装入平台，提供尽量丰富的功能，达到简化协同应用系统的开发难度和周期的效果，又要保证装入平台的协同业务逻辑具有相当的通用性，使其可以适应大多数企业的业务协同活动。</span>
+<h2>1.4技术路线</h2>
+<p><span style="font-size: medium">&nbsp;&nbsp;&nbsp; 相对与目前市场上的国内外其他协同软件平台产品，本项目产品有技术路线如下：</span></p>
+</span><span style="font-size: medium"><span style="">&nbsp;&nbsp;&nbsp; （1）采用SOA架构，兼容J2EE和.NET技术体系。我们在基础应用层采用Web Service服务，将实现进行封装，为各种技术体系的应用提供调用接口，至少同时兼容J2EE和.NET技术体系。<br />
+&nbsp;&nbsp;&nbsp; （2）面向应用和业务基础件（BSD）实现。从业务协同软件的细分角度看，本项目主要在通用中间件和实际应用系统之间，对企业具有共性的业务基础件建模，比如单据、项目、业务审批、多组织、虚拟团队等进行产品化。<br />
+&nbsp;&nbsp;&nbsp; （3）引入方案管理器、工作团队等概念，从组织和项目管理上建立协同基础机制，融入业务协同的管理思想，使企业能够遵循标准管理流程提升自己的协同管理能力。<br />
+&nbsp;&nbsp;&nbsp; （4）平台加强了对集团型企业和多组织架构的支持。基于本平台可以建立集团型、多组织协同的协同办公系统，支持分公司和子公司组织间的不同业务协作模式，可以大大降低集团型办公软件开发的复杂度和技术风险。<br />
+&nbsp;&nbsp;&nbsp; （5）采用智能客户端，将即时通讯、视频会议、业务预警、电子白板等整合在一个公共技术平台上，支持终端标准化配置，减少操作的复杂度，使大多数用户能够象使用QQ一样使用协同办公软件。<br />
+&nbsp;&nbsp;&nbsp; 1.5应用方案<br />
+&nbsp;&nbsp;&nbsp; 本项目关键技术攻关完成以后，由项目申报单位设计开发出业务协同软件平台样机系统。并将样机系统交付给个别用户试用，根据使用情况对系统进行改进完善，实现产品化。再将业务协同软件平台产品在全国范围内规模化推广，实现预期的经济效益和社会效益。</span></span></td>
+  </tr>
+</table>
+<br />
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+<br />
+<table border="1" cellspacing="0"   style="border:none" cellpadding="0" width="680"   align="center" class="abc">
+ <tr><td valign="middle" class="abc" ><p style="font-size:16px"><strong>二、立项的必要性及国内外研究现状、发展趋势和知识产权状况分析。</strong>(不超过3500字，各栏中不得出现申报单位名称和项目成员姓名.)</p></td></tr>
+  <tr>
+    <td valign="top" class="abc" height="820"><h2><span style="font-size: large"><span style="">2.1立项的必要性</span></span><span style="font-size: small"><br />
+</span></h2>
+<span style="font-size: medium"><span style="">&nbsp;&nbsp;&nbsp; 全球一体化的市场环境和知识经济背景下，企业在发生着深刻的变化。一方面，随着技术的不断成熟及与国际市场的接轨，竞争日益激烈，依靠产品销售产生利润的上升空间有限，企业开始向管理要&quot;利润&quot;，更多的依靠高效的运营和优化的管理打造竞争内核，关注企业的可持续性发展，从&quot;营销取胜&quot;转向&quot;管理取胜&quot;；另一方面，运营管理水平的提升又赋予了企业新的能力，使得企业从成本、效率等优化中激发出新的利润增长点。<br />
+&nbsp;&nbsp;&nbsp; 而管理的一个核心问题则是对各种资源的掌控、协调及优化，这正是协同应用所要解决的问题。从管理的角度上来说，协同的本质就是打破资源（人、财、物、信息、流程）之间的各种壁垒和边界，使它们为共同的目标而进行协调的运作，通过对各种资源最大的开发、利用和增值以充分达成一致的目标。<br />
+&nbsp;&nbsp;&nbsp; 业务协同软件在企业的作用主要体现在三个方面：<br />
+&nbsp;&nbsp;&nbsp; 首先是对信息的高度共享。信息共享是为了最大限度的发挥其本身的价值，无论是企业管理者、员工、还是外部的合作伙伴，都可以很方便的查找到相关的信息以支持事务的处理，并利用信息创造新的价值。<br />
+&nbsp;&nbsp;&nbsp; 其次是对各个业务的整合。这些业务尽管更多的时候从属于企业的不同人员、不同部门，但本质上来说它们都是紧密关联的，并形成企业特有的业务体系，企业需要对各个业务进行充分的整合以使业务能够协调和平滑运作，任何业务链的&quot;断折&quot;或业务的&quot;死角&quot;都会对企业的运营产生影响。<br />
+&nbsp;&nbsp;&nbsp; 第三是对各种资源的调配和优化。这些资源包括企业的人、财、物、信息和流程，当企业实现了信息共享和业务整合后，企业的&quot;神经网络体系&quot;才能够高效和通畅的运转，并使这些资源能够突破各种壁垒和障碍，在企业统一管理和协调下为共同的目标实现而服务。<br />
+&nbsp;&nbsp;&nbsp; 信息技术是企业实现管理优化的一个重要手段，但我们发现，信息化的实践过程中，常常会面对&quot;信息孤岛&quot;、&quot;应用孤岛&quot;和&quot;资源孤岛&quot;三大难题，这三大难题与企业的管理需求产生了难以调和的矛盾：<br />
+&nbsp;&nbsp;&nbsp; &quot;信息孤岛&quot;和信息共享的矛盾－ 不同的信息以不同的结构（如EMAIL、备忘录、通讯、演示文档、扫描文档）在不同的数据库、主机、文件服务器、应用系统上存在，而这些系统缺乏相互连接的信息渠道，数据被封存并缺乏应有的关联，从而给企业获取有用信息带来很大障碍。<br />
+&nbsp;&nbsp;&nbsp; &quot;应用孤岛&quot;和业务整合的矛盾&mdash;&mdash;针对自己某方面管理需求而引入的各种应用系统，在单个业务领域的管理上无疑有自己的特点，但由于它们无法面向整个的业务过程，各个系统之间也难以紧密集成，使得企业&quot;环环相扣&quot;的业务被这些分散的系统&quot;分隔&quot;开来，企业不得不花大量的人力、物力在不同的应用系统之间切换，造成运营效率低下和反应迟缓。<br />
+&nbsp;&nbsp;&nbsp; &quot;资源孤岛&quot;和资源协同的矛盾&mdash;&mdash;企业运作的基本元素 &quot;人&quot;、&quot;财&quot;、&quot;物&quot;、&quot;信息&quot;和&quot;流程&quot;，不能统一的被管理并在突破各种屏障和边界的工作环境下进行调配和紧密的整合，因而难以为企业的目标进行一致性的协作和服务。<br />
+&nbsp;&nbsp;&nbsp; 而协同应用的出现无疑为这些问题提供了有力的解决方案。协同应用提供了一种&quot;整体应用&quot;的方案，它关注的是全面的调控，更有利于对企业的各种资源进行充分整合，让这些被分隔开来的资源重新处于统一管理和调配下，使企业从获得&quot;局部优化&quot;到获得&quot;整体优化&quot;。<br />
+&nbsp;&nbsp;&nbsp; 目前我国各地协同软件产品超过200种，这些软件大部分基于Domino或者Exchange等国外第三方协同软件平台的基础之上，缺乏自主核心技术，不仅使产品现有功能难以满足国内用户需求，而且产品的未来发展受制于国外厂商，同时也抬高了用户软件应用成本。<br />
+&nbsp;&nbsp;&nbsp; 本项目研制具有自主知识产权和核心技术的CDZS业务协同软件平台，该平台产品为建立企业业务协同软件提供快速构建工具和运行平台。利用平台中已经建立的基础应用构件，能够针对不同用户的特点快速构建企业业务协同应用系统。本项目产品推广应用，将提高企业信息化水平和工作效率，有效降低用户成本。 </span></span><span style="font-size: small">
+<h2>2.2国内外研究现状、发展趋势分析</h2>
+<h3>2.2.1国内外研究现状</h3>
+<span style="font-size: medium">&nbsp;&nbsp;&nbsp; 与国内其他软件厂商一样，我国业务协同软件面临着国外厂商的巨大竞争压力。但相比其他国产软件而言，我国业务协同软件厂商具备了更多抗衡国外厂商的实力。有权威媒体指出：&ldquo;ERP软件应用领域，国内厂商起步至少落后国际五年；Internet应用方面国内起步落后国际两年，而在业务协同软件领域，国内软件厂商可以说是处于国际领先或相同水平。&rdquo;由于竞争的国际化状况迅速来临，使得具有核心技术的软件厂商，才具备与国际厂商一比高低的实力。<br />
+&nbsp;&nbsp;&nbsp; 在协同软件生态链中，协同解决方案提供商从高到低分成四类：第一类是以提供高端咨询和系统集成为主的专业厂商，代表厂商有中软、东软、埃森哲、赛迪顾问等；第二类是协同平台提供商，他们在自身协同平台的基础上，提供各种协同应用软件模块；第三类是在二类厂商协同平台的基础上，独立开发协同应用，提供应用组件；另外一类是应用型产品提供商，主要以分销为主。<br />
+&nbsp;&nbsp;&nbsp; 目前，协同软件平台提供商及主要产品有：<br />
+&nbsp;&nbsp;&nbsp; （1）国外主要是微软公司和IBM Lotus公司，其协同软件平台产品分别是IBM Lotus Domino/Workplace，微软的Sharepoint server 2003。<br />
+&nbsp;&nbsp;&nbsp; （2）国内主要有协达软件（协同软件业务架构平台CAP），点击科技（竞开协同之星GK-Star）、东兰软件（DLFlo工作流平台）。其他如慧点科技、浪潮、泛微等公司也推出了自己的协同软件平台产品。<br />
+&nbsp;&nbsp;&nbsp; 据国内最大的业务协同软件社区myEC.org的调查数据显示：目前我国业务协同软件相关厂商超过500家，其中相对成熟稳定的业务协同软件产品超过100个。</span><br />
+&nbsp;&nbsp;&nbsp;
+<h3>2.2.2技术发展趋势</h3>
+</span><span style="font-size: medium"><span style="">&nbsp;&nbsp;&nbsp; 业务协同软件的技术趋势主要有以下几点：<br />
+&nbsp;&nbsp;&nbsp; （1）重点转向以工作流为主<br />
+&nbsp;&nbsp;&nbsp; 业务协同软件的主要应用需求点，以前集中在邮件通讯、即时消息和日程管理等方面。随着微软Exchange和Outlook软件被广泛应用，以及近两年腾讯RTX、微软MSN等即时通讯软件的迅速普及，用户对于业务协同软件的需求点，已经转向工作流管理，用户应用业务协同软件的目的，已经由沟通转为&ldquo;使团队协作工作节点有条不紊推进&rdquo;。<br />
+&nbsp;&nbsp;&nbsp; （2）协同软件产业链分工日益精细<br />
+&nbsp;&nbsp;&nbsp; 在协同软件生态链中，协同解决方案提供商从高到低分成四类：第一类是以提供高端咨询和系统集成为主的专业厂商；第二类是协同平台提供商，他们在自身协同平台的基础上，提供各种协同应用软件模块；第三类是在二类厂商协同平台的基础上，独立开发协同应用，提供应用组件；另外一类是应用型产品提供商，主要以分销为主。协同软件产业链的调整和逐渐形成，对各类协同软件厂商都带来了机遇，具有技术核心的厂商可以提供核心技术和应用平台，而不具备核心技术的厂商可以发展成为ISV，或者咨询服务商。国内协同软件厂商只有积极与产业链内的厂商共同协作，以便在新的产业格局来临时，建立起自身在新格局中的竞争能力；同时，重视与众多中小地方性的集成商合作，通过与合作伙伴的广泛合作，以更加细分化的产品和专业化的服务赢得客户。<br />
+&nbsp;&nbsp;&nbsp; （3）采用SOA架构<br />
+&nbsp;&nbsp;&nbsp; 面向服务的体系结构（SOA）是目前业界广泛接受的一种先进系统架构思想。基于这样的面向服务的体系结构，服务消费者不必关心与之通信的特定服务，因为底层基础设施或服务总线将代表消费者做出适当的选择。基础设施对请求者隐藏了尽可能多的技术。特别地，来自不同实现技术的技术规范不影响SOA用户。<br />
+&nbsp;&nbsp;&nbsp; （4）支持多媒体和可视化<br />
+&nbsp;&nbsp;&nbsp; 业务协同软件将更多的提供对视频和图像的支持，实现业务协同的可视化。</span></span>
+<h2><span style="font-size: small">2.3知识产权状况分析<br />
+</span></h2>
+<p><span style="font-size: medium">&nbsp;&nbsp;&nbsp; 本项目产品系项目申报单位自主研发，具有完全的自主知识产权。</span></p></td>
+  </tr>
+</table>
+<br />
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+<br />
+<table border="1" cellspacing="0"   style="border:none" cellpadding="0" width="680"   align="center" class="abc">
+  <tr><td valign="middle" class="abc" ><p style="font-size:16px"><strong>三、项目的创新性。</strong>(理论创新、应用创新、技术创新、不超过2000字，各栏中不得出现申报单位名称和项目成员姓名。)</p></td></tr>
+  <tr>
+    <td valign="top" class="abc" height="820"><span style="font-size: medium">&nbsp;&nbsp;&nbsp; 项目主要创新点包括：<br />
+&nbsp;&nbsp;&nbsp; （1）提出并实现了跨多种软硬件平台运行的业务协同软件平台<br />
+&nbsp;&nbsp;&nbsp; 传统的业务协同软件一般只能在某种硬件和操作系统平台上运行。如需要更换运行平台，需要大量的时间对软件进行修改和测试，以保证其可靠性。<br />
+&nbsp;&nbsp;&nbsp; 但是，我国大多数企业已建和在建的各种应用系统，由于来自多个不同厂商，运行平台和技术体制差异很大。随着硬件平台处理性能的不断提高，用户也有只通过更换硬件平台进行系统升级的需求，传统的业务协同软件厂商一般采用的是全面升级软硬件的方法，显然不能满足这种需求。同时，企业已建和待建的信息处理和应用系统也需要同业务协同软件系统进行互联，进一步突出这种需求的迫切性。<br />
+&nbsp;&nbsp;&nbsp; 项目申报单位拟研制的业务协同软件平台将可以完全解决跨多种软硬件平台运行，但是，其技术和研发的难度将大大增加。<br />
+&nbsp;&nbsp;&nbsp; （2）抽取出了正对我国大型企业集团通用的协同业务逻辑<br />
+&nbsp;&nbsp;&nbsp; 业务协同软件平台需要将不同业务协同应用系统中存在共同的业务逻辑部分抽取出来，形成独立的协同业务基础服务层。通用协同业务逻辑的抽取将直接关系到业务协同软件平台的质量。既要把能够抽取的通用协同业务逻辑都装入平台，提供尽量丰富的功能，达到简化协同应用系统的开发难度和周期的效果，又要保证装入平台的协同业务逻辑具有相当的通用性，使其可以适应大多数企业的业务协同活动。<br />
+&nbsp;&nbsp;&nbsp; （3）本项目产品研制了智能客户端，兼容J2EE和.NET技术体系，同时支持C/S（Client/Server，客户端/服务器）和B/S（Browse/Server，浏览器/服务器）两种模式。智能客户端将即时通讯、视频会议、业务预警、电子白板等整合在一个公共技术平台上，支持终端标准化配置，减少操作的复杂度，使大多数用户能够像使用QQ一样使用协同办公软件。</span></td>
+  </tr>
+</table>
+<p align="left" class="STYLE5" >&nbsp;</p>
+
+<table border="1" cellspacing="0"  style="border:none" cellpadding="0" width="680"   align="center" class="abc">
+   <tr><td valign="middle" class="abc" ><p style="font-size:16px"><strong>四、项目应用前景和产学研结合情况。</strong>(不超过1000字，各栏中不得出现申报单位名称和项目成员姓名。)</p></td></tr>
+  
+  <tr>
+    <td valign="top" class="abc" height="820"><h2><span style="font-size: small">4.1 项目应用前景<br />
+</span></h2>
+<p><span style="font-size: medium"><span style="">&nbsp;&nbsp;&nbsp; 本项目的产品属于协同软件平台，其主要用户有两类：一是独立业务协同应用软件开发商；二是企事业及政府机关单位最终用户。<span style="">独立软件开发商和用户通过购买使用协同软件平台，可以快速开发业务协同应用软件系统，并且可以提高软件的开发质量。<br />
+&nbsp;&nbsp;&nbsp; 本项目产品的目标市场包括国际和国内的协同软件市场。<br />
+&nbsp;&nbsp;&nbsp; 国际上，根据Gartner统计分析，从2003年开始，全球范围业务协同软件已成为用户应用软件采购最大热点，位居信息化应用软件首选，到2007年全球业务协同软件市场的营业额达到近500亿美元，2008年业务协同软件市场规模已超过ERP市场。<br />
+&nbsp;&nbsp;&nbsp; 在我国，业务协同软件同样出现了爆发性的高速增长。根据国内知名的市场研究和管理咨询机构&mdash;赛迪顾问股份有限公司（CCID CONSULTING）发布的协同市场研究报告显示，2006～2010年，中国协同软件市场将以21.2%的年均复合增长率增长，市场规模将从2005年的10.37亿元增长到2010年的27.12亿元。<br />
+&nbsp;&nbsp;&nbsp; 总的来看，本项目产品具有广阔的应用前景。 </span></span></span></p>
+<span style="font-size: small">
+<h2>4.2产学研结合情况</h2>
+</span><span style="font-size: medium"><span style="">&nbsp;&nbsp;&nbsp; 本项目由项目牵头单位和协作单位产学研结合共同实施。<br />
+&nbsp;&nbsp;&nbsp; 项目牵头单位性质为公司，负责整个项目的总体设计、技术和产品研发、系统集成，并进行项目成果的应用和产业化工作。<br />
+&nbsp;&nbsp;&nbsp; 项目协作单位为教育部直属全国重点大学，也是国家&ldquo;211工程&rdquo;和&ldquo;985工程&rdquo;重点建设的大学，学校是国家知识创新和科技创新的重要基地。拥有国家重点实验室和国家工程技术研究中心7个，国家技术转移中心1个，教育部重点实验室、工程研究中心及网上合作中心13个，省级重点实验室45个，&ldquo;985工程&rdquo;科技创新平台8个。项目协作单位负责项目关键技术攻关，参与项目产品研发。<br />
+&nbsp;&nbsp;&nbsp; 项目牵头单位由一批在管理软件领域有十余年运作经验和项目实践的管理学者和软件专家组成，在理论和实践上充分融贯两大学科领域的精髓，建立了公司的核心技术架构并在此基础上开发了面向企业的集成应用平台，重点定位于基于网上无纸化办公的企业级群组协同系统研发。在创建基于网络平台和群组协同工作模式的无纸化管理体系领域走在学科前沿，具有国内先进性。公司的发展目标是：成为西部地区（发展到全国）最专业的IT服务提供商，充分发挥综合性大学支撑的背景优势、在管理和IT技术上的专业优势，为企业提供整体解决方案，扮演专业的咨询服务、总集成和实施顾问角色。</span></span></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table border="1" cellspacing="0"   style="border:none" cellpadding="0" width="680"   align="center" class="abc6">
+  <tr>
+    <td valign="middle" class="abc6" ><p style="font-size:16px"><strong>五、项目实施的风险及应对策略。</strong>(不超过1500字，各栏中不得出现申报单位名称和项目成员姓名。)</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="abc6" height="820"><span style="font-size: medium">&nbsp;&nbsp;&nbsp; 本项目实施的主要风险分析如下：<br />
+&nbsp;&nbsp;&nbsp; （1）技术风险<br />
+&nbsp;&nbsp;&nbsp; 由于软件技术水平的限制，本项目构建的业务协同服务的性能可能不能满足企业业务协同应用系统的需求。为了应对该技术风险，一方面，在系统设计和软件设计方面采取了措施；另一方面，联合协作单位进行关键技术攻关，充分利用协作单位雄厚的技术力量。再加上系统硬件处理性能目前还以&ldquo;摩尔定律&rdquo;不断提升，我们认为该技术风险完全可以控制。<br />
+&nbsp;&nbsp;&nbsp; 该风险出现概率较小，但对项目影响较大。<br />
+&nbsp;&nbsp;&nbsp; （2）法律风险<br />
+&nbsp;&nbsp;&nbsp; 本项目法律风险主要是与知识产权相关的风险。<br />
+&nbsp;&nbsp;&nbsp; 本项目技术来源于公司原有产品和自主技术，不存在未覆盖的法律风险。<br />
+&nbsp;&nbsp;&nbsp; 最终产品完成后，项目将按照国内著作版权法规要求进行软件版权登记，产品登记、评测，相关技术申报专利。<br />
+&nbsp;&nbsp;&nbsp; 项目牵头承担单位与协作单位的合作，所有相关知识技术和产品产权明晰，不存在法律风险。<br />
+&nbsp;&nbsp;&nbsp; （3）人力资源风险<br />
+&nbsp;&nbsp;&nbsp; 人才流动风险是高技术产品研发的重要风险。项目承担单位内部建立了完善的人力资源管理体系，关键技术已经从个人掌握转变为公司掌握，形成文件化的公司资产。项目申报单位由于成熟度提高，人员流动率远远低于同业水平，仅为6 %左右。<br />
+&nbsp;&nbsp;&nbsp; 同时，针对本项目，公司专门制定了项目人力资源管理规划。公司已经深入分析并充分应对了人力资源风险。<br />
+&nbsp;&nbsp;&nbsp; （4）资金风险<br />
+&nbsp;&nbsp;&nbsp; 本项目投资总额470万元人民币。项目申报单位主要股东为上市公司，注册资金1000万元，目前只缴纳300万元，在今年年底将补足余下700万元注册资金，主要用于本项目实施，项目自筹资金有充分保障。而且公司经营状况良好，其年利润增长率为20%左右。无论最终是否能够取得国家的资金支持，依靠公司资金和贷款都能保证本项目的顺利实施。公司自身的发展和资金实力可以有效应对可能的资金风险。<br />
+&nbsp;&nbsp;&nbsp; （5）政策风险<br />
+&nbsp;&nbsp;&nbsp; 国家对一直十分重视&ldquo;信息化和工业化的融合&rdquo;。本项目符合国家信息产业发展政策，是信息产业自主创新的重点项目。项目对于行业技术进步具有突出作用，符合政策导向，在项目执行期内不存在未覆盖的政策风险。<br />
+&nbsp;&nbsp;&nbsp; 综上所述，项目对各种风险都进行了认真的考虑并积极应对，确保了项目风险在可以控制的范围以内。</span></td>
+  </tr>
+</table>
+<p align="left" class="STYLE5" >&nbsp;</p>
+<table border="1" cellspacing="0"   style="border:none" cellpadding="0" width="680"   align="center" class="abc">
+   <tr><td valign="middle" class="abc" ><p style="font-size:16px"><strong>六、已有研究基础和承担优势</strong>(包括与项目有关的前期研究状况、实验设备及设备条件、近三年主持或主研的科研成果；获奖及发表论文情况，不超过1500字，各栏中不得出现申报单位名称和项目成员姓名.)</p></td></tr>
+ 
+  <tr>
+    <td valign="top" class="abc" height="820"><span style="font-size: medium"><span style="">&nbsp;&nbsp;&nbsp; 项目申报单位是上市公司子公司，以软件开发和系统集成为主业。公司现有员工90余人，技术人员80余人，占公司总人数的88%，管理人员15人，占公司总人数的15%。<br />
+&nbsp;&nbsp;&nbsp; 项目协作单位是教育部直属全国重点大学和国家布局在中国西部的高水平研究型综合大学，也是国家&ldquo;211工程&rdquo;和&ldquo;985工程&rdquo;重点建设的大学。学校是国家知识创新和科技创新的重要基地。拥有国家重点实验室和国家工程技术研究中心7个，国家技术转移中心1个，教育部重点实验室、工程研究中心及网上合作中心13个，省级重点实验室45个，&ldquo;985工程&rdquo;科技创新平台8个。</span></span><span style="font-size: small"><br />
+&nbsp;&nbsp;&nbsp;
+<h2>6.1项目有关的前期研究状况</h2>
+<span style="font-size: medium">&nbsp;&nbsp;&nbsp; 项目申报单位有10多年从事企业信息化产品（系统）的研发、生产和销售的历史，在该领域内有很好的技术积累。核心和关键技术均为自主开发，具有自主知识产权的技术成果，并且在多个项目或产品中得到过应用验证。公司目前是国资委认定的企业管理信息化服务机构。<br />
+&nbsp;&nbsp;&nbsp; 项目申报单位与本项目相关主要产品包括：业务协同应用软件、企业信息化软件、企业电子商务软件、景区信息化软件等。这些产品已推广应用100余套。典型系统项目如下：<br />
+&nbsp;&nbsp;&nbsp; （1）中国电子科技集团第10研究所协同工作平台软件，合同总金额115万。<br />
+&nbsp;&nbsp;&nbsp; （2）数字化青城山项目，合同总金额700万。<br />
+&nbsp;&nbsp;&nbsp; （3）峨眉山旅游网群和数字营销系统软件项目，合同总金额73万。<br />
+&nbsp;&nbsp;&nbsp; （4）四川一汽丰田汽车有限公司，SFTM EIP企业信息平台建设项目，合同总金额30万。<br />
+&nbsp;&nbsp;&nbsp; （5）四川路桥集团管理信息化总体规划项目，合同总金额158万。<br />
+&nbsp;&nbsp;&nbsp; （6）川投集团管理信息化建设项目，合同总金额80万。<br />
+&nbsp;&nbsp;&nbsp; （7）都江堰旅游电子商务系统项目，合同总金额64.3万。<br />
+&nbsp;&nbsp;&nbsp; （8）宜宾市政府系统公文无纸化办理及传输平台，合同总金额344.4万。<br />
+&nbsp;&nbsp;&nbsp; （9）成都市政府网站统一平台项目，合同总金额349.0万。<br />
+&nbsp;&nbsp;&nbsp; 这些相关软件的研发应用对本项目产品的研制开发打下了坚实的基础。</span>
+<h2>6.2实验设备及设备条件</h2>
+<span style="font-size: medium">&nbsp;&nbsp;&nbsp; 项目申报单位已建成总面积23,000平米的研发、测试和集成基地，其中研发基地7,000平米；测试和集成基地16,000平米。基地配备了价值3500万元的先进设备和专用软件，达到了国际一流，包括：<br />
+&nbsp;&nbsp;&nbsp; （1）价值共1000万元的超级小型机、服务器、图形工作站、专用显示器、测试仪器等；<br />
+&nbsp;&nbsp;&nbsp; （2）价值共1000万元的各种企业应用系统4套；<br />
+&nbsp;&nbsp;&nbsp; （3）价值共700万元的各类仿真模拟训练系统；<br />
+&nbsp;&nbsp;&nbsp; （4）价值500万元的记录和分析设备等；<br />
+&nbsp;&nbsp;&nbsp; （5）价值300余万的专用工具软件，包括：Butterfly，Firefly，Dragonfly，Logiscope，Stp等。<br />
+&nbsp;&nbsp;&nbsp; 上述设备和软件，将有力保证本项目的实施。</span><br />
+&nbsp;&nbsp;&nbsp;
+<h2>6.3近三年主持或主研的科研成果</h2>
+<span style="font-size: medium">&nbsp;&nbsp;&nbsp; 2001&mdash;2009年间，主持开发了蓬莱盐化、省交通厅、德农正成种业集团、绵阳海关、峨眉山旅游电子商务网等20多个项目，主要包括：<br />
+&nbsp;&nbsp;&nbsp; 川投集团企业执行支撑信息平台建设技术总监；<br />
+&nbsp;&nbsp;&nbsp; 成都市政府网站统一平台建设及相关集成服务项目总监；<br />
+&nbsp;&nbsp;&nbsp; 宜宾市政府系统公文无纸化办理及传输平台技术总监；<br />
+&nbsp;&nbsp;&nbsp; 川航公众信息网站建设技术总监；<br />
+&nbsp;&nbsp;&nbsp; 一汽丰田企业信息平台建设技术总监；<br />
+&nbsp;&nbsp;&nbsp; 数字化黄龙项目负责人；<br />
+&nbsp;&nbsp;&nbsp; 数字化青城山项目负责人。 </span>
+<h2>6.4获奖及发表论文情况</h2>
+</span><span style="font-size: medium"><span style="">&nbsp;&nbsp;&nbsp; 本项目技术团队研制成功了三大系列、自主知识产权的重大装备，并得到广泛推广应用，取得重大社会经济效益。获国家科技进步一等奖1项，国家科技进步二等奖2项。标志性成果十分突出。<br />
+&nbsp;&nbsp;&nbsp; 主要获奖项目包括：<br />
+&nbsp;&nbsp;&nbsp; （1）CDZS系列空中交通管制中心系统，国家科技进步一等奖，2005；<br />
+&nbsp;&nbsp;&nbsp; （2）MDSL多通道数字同步记录仪，国家科技进步二等奖，2003；<br />
+&nbsp;&nbsp;&nbsp; （3）DRS航管雷达模拟机，国家科技进步二等奖，1996；<br />
+&nbsp;&nbsp;&nbsp; 已在国际一流学术刊物如Automatic、IEEE Trans. AES/Signal Processing/Information Theory等发表相关论文三十篇；在国内《电子学报》、《自动化学报》、《软件学报》等EI检索刊物发表论文五十余篇。</span></span></td>
+  </tr>
+</table>
+<br />
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+<br />
+<table border="1" cellspacing="0"   style="border:none" cellpadding="0" width="680"   align="center" class="abc">
+   <tr><td valign="middle" class="abc" ><p style="font-size:16px"><strong>七、项目的年度进度及预期目标。</strong>(不超过1000字，各栏中不得出现申报单位名称和项目成员姓名.)</p></td></tr>
+  
+  <tr>
+    <td valign="top" class="abc" height="820"><span style="font-size: medium">&nbsp;&nbsp;&nbsp; 项目执行时间为2010年1月到2011年12月。<br />
+&nbsp;&nbsp;&nbsp; 项目进度计划为<br />
+&nbsp;&nbsp;&nbsp; （1）2010年1月～2010年3月，CDZS业务协同软件平台的系统分析和总体方案设计；<br />
+&nbsp;&nbsp;&nbsp; （2）2010年4月～2010年10月，CDZS业务协同软件平台的程序设计和实现；<br />
+&nbsp;&nbsp;&nbsp; （3）2010年11月～2010年12月，CDZS业务协同软件平台的系统测试及用户试用；<br />
+&nbsp;&nbsp;&nbsp; （4）2011年1月～2011年3月，根据用户试用的情况对CDZS业务协同软件平台进行改进；<br />
+&nbsp;&nbsp;&nbsp; （5）2011年4月～2011年6月，CDZS业务协同软件平台产品化研制；<br />
+&nbsp;&nbsp;&nbsp; （6）2011年7月～2011年11月，CDZS业务协同软件平台产品的初步推广应用，实现CDZS业务协同软件平台的产品化；<br />
+&nbsp;&nbsp;&nbsp; （7）2011年12月，项目鉴定与验收。<br />
+&nbsp;&nbsp;&nbsp; 项目的年度进度及预期目标为：<br />
+&nbsp;&nbsp;&nbsp; 2010年：完成CDZS业务协同软件平台的系统分析和总体方案设计；完成CDZS业务协同软件平台的程序设计和实现；完成CDZS业务协同软件平台的系统测试及用户试用。<br />
+&nbsp;&nbsp;&nbsp; 2011年：完善CDZS业务协同软件平台并实现产品化；实现产品的初步推广应用；完成项目鉴定与验收。</span></td>
+  </tr>
+</table>
+<br />
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+<br />
+<table border="1" cellspacing="0"   style="border:none" cellpadding="0" width="680"   align="center" class="abc">
+  <tr>
+    <td height="41" colspan="6"><p class="STYLE11">八、经费预算。（单位：万元人民币） </p></td>
+  </tr>
+  <tr>
+    <td height="36" colspan="2"><p align="center"><strong> </strong><strong>经费来源预算</strong><strong> </strong></p></td>
+    <td colspan="4"><p align="center"><strong>经费支出预算</strong><strong> </strong></p></td>
+  </tr>
+  <tr>
+    <td width="159" height="41"><p align="center">科  目</p></td>
+    <td width="92"><p align="center">预算数 </p></td>
+    <td colspan="3"><p align="center">科  目</p></td>
+    <td width="68"><p align="center">预算数</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="41"><p>1.申请省科技厅拨款</p></td>
+    <td width="92" align="center"><p>60</p></td>
+    <td colspan="3"><p>1、设备费</p></td>
+    <td align="center"><p>230 </p></td>
+  </tr>
+  <tr>
+    <td width="159" height="44"><p>2.国家部委拨款</p></td>
+    <td width="92" align="center"><p>0</p></td>
+    <td colspan="3"><p>（1）购置设备费</p></td>
+    <td align="center"><p>230</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="35"><p>2.国家其它拨款</p></td>
+    <td width="92" align="center"><p>0</p></td>
+    <td colspan="3"><p>（2）试制设备费</p></td>
+    <td align="center"><p>0</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="41"><p>3.行业主管部门拨款</p></td>
+    <td width="92" align="center"><p>0</p></td>
+    <td colspan="3"><p>（3）设备改造与租赁费</p></td>
+    <td align="center"><p>0</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="37"><p>4.市州县财政拨款</p></td>
+    <td width="92" align="center"><p>0</p></td>
+    <td colspan="3"><p>2、材料费</p></td>
+    <td align="center"><p>30</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="35"><p>5.银行贷款</p></td>
+    <td width="92" align="center"><p>0</p></td>
+    <td colspan="3"><p>3、测试化验加工费</p></td>
+    <td align="center"><p>40</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="38"><p>6.单位自筹</p></td>
+    <td width="92" align="center"><p>410</p></td>
+    <td colspan="3"><p>4、燃料动力费</p></td>
+    <td align="center"><p>30</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="38"><p>7.其它来源</p></td>
+    <td width="92" align="center"><p>0</p></td>
+    <td colspan="3"><p>5、差旅费</p></td>
+    <td align="center"><p>50</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="36"><p align="center">&nbsp;</p></td>
+    <td width="92" align="center"><p>&nbsp;</p></td>
+    <td colspan="3"><p>6、会议费</p></td>
+    <td align="center"><p>10</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="36"><p align="center">&nbsp;</p></td>
+    <td width="92" align="center"><p>&nbsp;</p></td>
+    <td colspan="3"><p>7、国际合作与交流费</p></td>
+    <td align="center"><p>10</p></td>
+  </tr>
+  <tr>
+    <td width="159"><p align="center">&nbsp;</p></td>
+    <td width="92" align="center"><p>&nbsp;</p></td>
+    <td colspan="3"><p>8、出版/文献/信息传播/知识产权事务费</p></td>
+    <td align="center"><p>10</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="37"><p align="center">&nbsp;</p></td>
+    <td width="92" align="center"><p>&nbsp;</p></td>
+    <td colspan="3"><p>9、劳务费</p></td>
+    <td align="center"><p>40</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="37"><p align="center">&nbsp;</p></td>
+    <td width="92" align="center"><p>&nbsp;</p></td>
+    <td colspan="3"><p>10、专家咨询费</p></td>
+    <td align="center"><p>10</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="39"><p align="center">&nbsp;</p></td>
+    <td width="92" align="center"><p>&nbsp;</p></td>
+    <td colspan="3"><p>11、管理费</p></td>
+    <td align="center"><p>10</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="41"><p align="center">&nbsp;</p></td>
+    <td width="92" align="center"><p>&nbsp;</p></td>
+    <td colspan="3"><p>12、其他</p></td>
+    <td align="center"><p>0</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="45"><p>经费来源预算合计</p></td>
+    <td width="92" align="center"><p>470</p></td>
+    <td colspan="3"><p>经费支出预算合计 </p></td>
+    <td align="center"><p>470</p></td>
+  </tr>
+  <tr>
+    <td width="159" rowspan="2"><p align="center">申请省科技厅拨款预算</p></td>
+    <td width="92" height="40"><p align="center">年度 </p></td>
+    <td width="105" align="center"><p>2010 年</p></td>
+    <td width="93" align="center"><p>2011 年</p></td>
+    <td width="69" align="center"><p> 年</p></td>
+    <td align="center"><p>总计</p></td>
+  </tr>
+  <tr>
+    <td width="92" height="43"><p align="center">经费</p></td>
+    <td width="105" align="center"><p>60</p></td>
+    <td width="93" align="center"><p>0</p></td>
+    <td align="center"><p>0</p></td>
+    <td align="center"><p>60</p></td>
+  </tr>
+</table>
+<br />
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+<br />
+<table border="1" cellspacing="0"   style="border:none" cellpadding="0" width="680"   align="center" class="abc">
+  <tr>
+    <td width="621" colspan="33"><p class="STYLE10">九、项目承担单位、协作单位及主要研究人员情况。</p></td>
+  </tr>
+  <tr>
+    <td width="132" height="27" colspan="5"><p align="center">项目名称</p></td>
+    <td width="488" colspan="28"><p>CDZS业务协同软件平台</p></td>
+  </tr>
+  <tr>
+    <td width="43" colspan="2" rowspan="10"><p align="center">第<br />
+      一<br />
+      承<br />
+      担<br />
+      单<br />
+      位</p></td>
+    <td width="89" height="27" colspan="3"><p align="center">单位名称 </p></td>
+    <td width="488" colspan="28"><p>四川川大智胜系统集成有限公司</p></td>
+  </tr>
+  <tr>
+    <td width="89" height="27" colspan="3"><p align="center">地址</p></td>
+    <td width="239" colspan="13"><p>成都市高新区九兴大道12号</p></td>
+    <td width="87" colspan="6"><p align="center">邮编</p></td>
+    <td width="162" colspan="9"><p>610041</p></td>
+  </tr>
+  <tr>
+    <td width="89" colspan="3"><p align="center">负责人</p></td>
+    <td width="239" colspan="13"><p>范雄</p></td>
+    <td width="87" colspan="6"><p align="center">联系人</p></td>
+    <td width="162" colspan="9"><p>柳岸</p></td>
+  </tr>
+  <tr>
+    <td width="89" colspan="3"><p align="center">联系人电话</p></td>
+    <td width="239" colspan="13"><p>028-85372613</p></td>
+    <td width="87" colspan="6"><p align="center">联系人手机</p></td>
+    <td width="162" colspan="9"><p>13693476085</p></td>
+  </tr>
+  <tr>
+    <td width="89" height="27" colspan="3"><p align="center">职工人数 </p></td>
+    <td width="69" colspan="3"><p>0</p></td>
+    <td width="82" colspan="4"><p>经济类型</p></td>
+    <td width="87" colspan="6"><p>民营企业</p></td>
+    <td width="131" colspan="11"><p>上级行政主管部门</p></td>
+    <td width="119" colspan="4"><p>成都市科技局</p></td>
+  </tr>
+  <tr>
+    <td width="65" colspan="2" rowspan="5"><p>资产状况(单位：万元)(限企业填写) </p></td>
+    <td width="159" height="27" colspan="7"><p align="center">资产总额</p></td>
+    <td width="60" colspan="3"><p>258</p></td>
+    <td width="103" colspan="8" rowspan="2"><p align="center">负债<br />
+      总额</p></td>
+    <td width="190" colspan="11" valign="top"><p>29</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="27" colspan="7"><p align="center">固定资产原值</p></td>
+    <td width="60" colspan="3"><p align="center">1.6</p></td>
+    <td width="127" colspan="9"><p align="center">其中流动负债</p></td>
+    <td width="63" colspan="2" valign="top"><p>29</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="27" colspan="7"><p align="center">固定资产净值</p></td>
+    <td width="60" colspan="3"><p align="center">1.6</p></td>
+    <td width="103" colspan="8" rowspan="2"><p align="center">销售收入总额</p></td>
+    <td width="190" colspan="11"><p align="center">0</p></td>
+  </tr>
+  <tr>
+    <td width="159" height="27" colspan="7"><p align="center">流动资产</p></td>
+    <td width="60" colspan="3"><p align="center">256</p></td>
+    <td width="127" colspan="9"><p align="center">主营业务收入</p></td>
+    <td width="63" colspan="2" valign="top"><p>0</p></td>
+  </tr>
+  <tr>
+    <td width="159" colspan="7"><p align="center">所有者权益总额</p></td>
+    <td width="60" colspan="3"><p align="center">229</p></td>
+    <td width="165" colspan="14"><p align="center">税后利润总额</p></td>
+    <td width="129" colspan="5" valign="top"><p align="center">-70</p></td>
+  </tr>
+  <tr>
+    <td width="43" colspan="2" rowspan="5"><p align="center">协作单位</p></td>
+    <td width="312" height="31" colspan="15"><p align="center">名称</p></td>
+    <td width="266" colspan="16"><p align="center">在本项目中分工</p></td>
+  </tr>
+   <tr>
+    <td width="312" height="27" colspan="15"><p align="left">四川大学</p>      </td>
+    <td width="266" colspan="16"><p>负责项目关键技术攻关，参与项目产品研发。</p></td>
+  </tr>
+  <tr>
+    <td width="312" height="27" colspan="15"><p align="left"></p>      </td>
+    <td width="266" colspan="16"><p></p></td>
+  </tr>
+  <tr>
+    <td width="312" height="32" colspan="15"><p></p></td>
+    <td width="266" colspan="16"><p></p></td>
+  </tr>
+  <tr>
+    <td width="312" height="28" colspan="15"><p></p></td>
+    <td width="266" colspan="16"><p></p></td>
+  </tr>
+  <tr>
+    <td width="43" colspan="2" rowspan="3"><p align="center">项目负责人</p></td>
+    <td width="89" height="27" colspan="3"><p align="center">姓名</p></td>
+    <td width="135" colspan="6"><p>左齐</p></td>
+    <td width="60" colspan="3"><p align="center">性别</p></td>
+    <td width="52" colspan="5"><p>男</p></td>
+    <td width="83" colspan="6"><p align="center">出生年月 </p></td>
+    <td width="158" colspan="8"><p>1964-05-01</p></td>
+  </tr>
+  <tr>
+    <td width="89" height="28" colspan="3"><p align="center">学历(学位)</p></td>
+    <td width="90" colspan="4"><p>硕士</p></td>
+    <td width="45" colspan="2"><p align="center">职称</p></td>
+    <td width="147" colspan="10"><p>副研究员</p></td>
+    <td width="64" colspan="6"><p align="center">电话</p></td>
+    <td width="142" colspan="6"><p></p></td>
+  </tr>
+  <tr>
+    <td width="89" colspan="3"><p align="center">从事专业 </p></td>
+    <td width="488" colspan="28"><p>计算机应用技术</p></td>
+  </tr>
+  <tr>
+    <td width="132" colspan="5"><p>项目组人数 </p></td>
+    <td width="61" colspan="2"><p>18</p></td>
+    <td width="53" colspan="3"><p align="center">高级</p></td>
+    <td width="55" colspan="3"><p>7</p></td>
+    <td width="45" colspan="3"><p align="center">中级</p></td>
+    <td width="58" colspan="4"><p>10</p></td>
+    <td width="66" colspan="6"><p align="center">初级</p></td>
+    <td width="44" colspan="4"><p>1</p></td>
+    <td width="56" colspan="2"><p align="center">其它</p></td>
+    <td width="51"><p></p></td>
+  </tr>
+  <tr>
+    <td width="36" rowspan="10"><p align="center">主要研究人员 </p></td>
+    <td width="68" colspan="2"><p align="center">姓名</p></td>
+    <td width="48" colspan="3"><p align="center">性别</p></td>
+    <td width="43"><p align="center">年龄</p></td>
+    <td width="53" colspan="3"><p align="center">学历</p></td>
+    <td width="85" colspan="5"><p align="center">职称</p></td>
+    <td width="109" colspan="8"><p align="center">从事专业</p></td>
+    <td width="181" colspan="10"><p align="center">所在单位</p></td>
+  </tr>
+    <tr>
+    <td width="68" height="27" colspan="2"><p>杨红雨</p></td>
+    <td width="48" colspan="3"><p>女</p></td>
+    <td width="43"><p>42</p></td>
+    <td width="53" colspan="3"><p>博士</p></td>
+    <td width="85" colspan="5"><p>教授</p></td>
+    <td width="109" colspan="8"><p>计算机应用</p></td>
+    <td width="181" colspan="10"><p>四川大学</p></td>
+  </tr>
+    <tr>
+    <td width="68" height="27" colspan="2"><p>游志胜</p></td>
+    <td width="48" colspan="3"><p>男</p></td>
+    <td width="43"><p>64</p></td>
+    <td width="53" colspan="3"><p>硕士</p></td>
+    <td width="85" colspan="5"><p>教授</p></td>
+    <td width="109" colspan="8"><p>计算机应用</p></td>
+    <td width="181" colspan="10"><p>四川大学</p></td>
+  </tr>
+    <tr>
+    <td width="68" height="27" colspan="2"><p>宋万忠</p></td>
+    <td width="48" colspan="3"><p>男</p></td>
+    <td width="43"><p>35</p></td>
+    <td width="53" colspan="3"><p>博士</p></td>
+    <td width="85" colspan="5"><p>副研究员</p></td>
+    <td width="109" colspan="8"><p>计算机应用</p></td>
+    <td width="181" colspan="10"><p>四川大学</p></td>
+  </tr>
+    <tr>
+    <td width="68" height="27" colspan="2"><p>费向东</p></td>
+    <td width="48" colspan="3"><p>女</p></td>
+    <td width="43"><p>42</p></td>
+    <td width="53" colspan="3"><p>硕士</p></td>
+    <td width="85" colspan="5"><p>副教授</p></td>
+    <td width="109" colspan="8"><p>计算机应用</p></td>
+    <td width="181" colspan="10"><p>川大智胜公司</p></td>
+  </tr>
+    <tr>
+    <td width="68" height="27" colspan="2"><p>柳岸</p></td>
+    <td width="48" colspan="3"><p>男</p></td>
+    <td width="43"><p>38</p></td>
+    <td width="53" colspan="3"><p>硕士</p></td>
+    <td width="85" colspan="5"><p>高级工程师</p></td>
+    <td width="109" colspan="8"><p>通信技术</p></td>
+    <td width="181" colspan="10"><p>川大智胜公司</p></td>
+  </tr>
+    <tr>
+    <td width="68" height="27" colspan="2"><p>宋学勇</p></td>
+    <td width="48" colspan="3"><p>男</p></td>
+    <td width="43"><p>36</p></td>
+    <td width="53" colspan="3"><p>硕士</p></td>
+    <td width="85" colspan="5"><p>高级工程师</p></td>
+    <td width="109" colspan="8"><p>计算机应用</p></td>
+    <td width="181" colspan="10"><p>川大智胜公司</p></td>
+  </tr>
+    <tr>
+    <td width="68" height="27" colspan="2"><p>鲁书贤</p></td>
+    <td width="48" colspan="3"><p>男</p></td>
+    <td width="43"><p>25</p></td>
+    <td width="53" colspan="3"><p>硕士</p></td>
+    <td width="85" colspan="5"><p>助理工程师</p></td>
+    <td width="109" colspan="8"><p>计算机科学技术</p></td>
+    <td width="181" colspan="10"><p>川大智胜公司</p></td>
+  </tr>
+    <tr>
+    <td width="68" height="27" colspan="2"><p>莫世锋</p></td>
+    <td width="48" colspan="3"><p>男</p></td>
+    <td width="43"><p>33</p></td>
+    <td width="53" colspan="3"><p>硕士</p></td>
+    <td width="85" colspan="5"><p>工程师</p></td>
+    <td width="109" colspan="8"><p>计算机应用</p></td>
+    <td width="181" colspan="10"><p>川大智胜公司</p></td>
+  </tr>
+    <tr>
+    <td width="68" height="27" colspan="2"><p>王俊峰</p></td>
+    <td width="48" colspan="3"><p>男</p></td>
+    <td width="43"><p>33</p></td>
+    <td width="53" colspan="3"><p>博士后</p></td>
+    <td width="85" colspan="5"><p>教授</p></td>
+    <td width="109" colspan="8"><p>计算机应用</p></td>
+    <td width="181" colspan="10"><p>四川大学</p></td>
+  </tr>
+  </table>
+<br />
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+<br />
+<table width="680" align="center" cellpadding="3" cellspacing="1" class="tb_data">
+<tr>
+    <td  colspan="4"><p><strong>十、人员统计。</strong> </p></td>
+  </tr>
+  <tr>
+    <td width="8%" rowspan="10">组人员组成情况</td>
+    <td width="12%">高端科技人才</td>
+    <td colspan="2">科学院院士（0）  工程院院士（0） 长江学者奖励计划（0）  国家“千人计划”（0）  省“百人计划”（0）</td>
+  </tr>
+  <tr>
+    <td width="12%">学历</td>
+    <td colspan="2">博士后（1） 博士研究生（5） 硕士研究生（10） 本科生（2） 大专生（0）&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="12%">学位</td>
+    <td colspan="2">博士（6） 硕士（10） 学士（2）&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="12%" rowspan="4">职称</td>
+    <td>研究系列</td>
+    <td>高级（2） 中级（0） 初级（0）&nbsp;</td>
+  </tr>
+  <tr>
+    <td>工程系列</td>
+    <td>高级（3） 中级（8） 初级（1）&nbsp;</td>
+  </tr>
+  <tr>
+    <td>教师系列</td>
+    <td>高级（4） 中级（0） 初级（0）&nbsp;</td>
+  </tr>
+  <tr>
+    <td>其他系列</td>
+    <td>高级（0） 中级（0） 初级（0）&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="12%">年龄</td>
+    <td colspan="2">35岁以下（9） 36到45岁（8） 46到55岁（1） 56岁以上（0）&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="12%">引进人才类别</td>
+    <td colspan="2">海外人才（0） 省外人才（1）&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="12%">引进人才方式</td>
+    <td colspan="2">调入（1） 聘用（0） 兼职（0）&nbsp;</td>
+  </tr>
+  <tr>
+    <td rowspan="6">培养人才情况</td>
+    <td width="12%">高端人才</td>
+    <td colspan="2">院士（0） 长江学者建立计划（0） 国家“千人计划”（0） 省“百人计划”（1）&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="12%" rowspan="4">职称晋升</td>
+    <td width="14%">研究系列</td>
+    <td width="66%">高级（0） 中级（0）&nbsp;</td>
+  </tr>
+  <tr>
+    <td>工程系列</td>
+    <td>高级（2） 中级（0）&nbsp;</td>
+  </tr>
+  <tr>
+    <td>教师系列</td>
+    <td>高级（2） 中级（0）&nbsp;</td>
+  </tr>
+  <tr>
+    <td>其他系列</td>
+    <td>高级（0） 中级（0）&nbsp;</td>
+  </tr>
+  <tr>
+    <td>在读人才</td>
+    <td colspan="2">在读博士后（0） 在读博士研究生（2） 在读硕士研究生（0） 在读本科生（0）&nbsp;</td>
+  </tr>
+  <tr>
+    <td rowspan="2">吸纳大学生就业情况</td>
+    <td width="12%">学历</td>
+    <td colspan="2">博士后（0） 博士研究生（0） 硕士研究生（2） 本科及大专（3）&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="12%">毕业时间</td>
+    <td colspan="2">当年（2） 去年（0） 前年（3）&nbsp;</td>
+  </tr>
+</table>
+<br />
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+<br />
+<table border="1" cellspacing="0"   style="border:none" cellpadding="0" width="680"   align="center" class="abc">
+  <tr>
+    <td height="38" colspan="2"><p><strong>十一、审批情况。</strong> </p></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><p align="center">项 目 申 报 单 位 意 见 </p></td>
+  </tr>
+  <tr>
+    <td  height="420" colspan="2" valign="top" style="border-bottom-color:#FFFFFF">&nbsp;     </td>
+  </tr>
+  <tr><td width="744" align="right" style="border-bottom-color:#000000;border-top-color:#FFFFFF;border-right-color:#FFFFFF">领导签字
+  </td>
+    <td width="223" align="right" style="border-bottom-color:#000000;border-top-color:#FFFFFF;border-left-color:#FFFFFF">(盖章)</td>
+  </tr>
+  <tr>
+    <td colspan="2"><p align="center">归  口  部  门 意 见 </p></td>
+  </tr>
+  <tr>
+    <td height="330" colspan="2" valign="top" style="border-bottom-color:#FFFFFF; height:300px;">&nbsp;</td>
+  </tr>
+   <tr><td width="744" align="right" style="border-bottom-color:#000000;border-top-color:#FFFFFF;border-right-color:#FFFFFF">领导签字
+  </td>
+    <td width="223" align="right" style="border-bottom-color:#000000;border-top-color:#FFFFFF;border-left-color:#FFFFFF">(盖章)</td>
+  </tr>
+</table>
+</body>
+</html>
