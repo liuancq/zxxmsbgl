@@ -1,0 +1,893 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script   language="javascript">
+ 	function open_shuoming(ids)
+    {	
+        window.open("index.php?module=apply&act=print_note&tbproj_id="+ids, "打印说明", "height=600,width=800,top=100,left=100,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no");
+    }
+ </script>
+<title>申报书打印</title>
+<base href="http://xmgl.scst.gov.cn/" />
+<style type="text/css">
+<!--
+.STYLE4 {
+	font-size: 36px
+}
+.STYLE5 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.STYLE6 {
+	font-size: 24px
+}
+-->
+</style>
+<style>
+table {
+	border-collapse:collapse;
+	border:solid black;
+}
+td {
+	border: 1px solid black
+}
+</style>
+<style>
+.gh {
+	position:absolute;
+	left:20px;
+	right:20px;
+	visibility: visible;
+}
+</style>
+<style>
+.p {
+	text-indent:2em;
+	font-size:17px;
+	line-height:40px;
+}
+</style>
+<style>
+.p2 {
+	text-indent:2em;
+	font-size:16px;
+	line-height:36px;
+}
+</style>
+<style>
+.p1 {
+	line-height:16px;
+	font-size:16px;
+}
+</style>
+<style>
+.middle-demo-2 {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+</style>
+<style>
+.def {
+	border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.def1 {
+	border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-bottom-color:#FFFFFF;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.abc {
+	border-left-width:1px;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-color:#000000;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+}
+.abc1 {
+	border-left-width:1px;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:0px;
+	border-bottom-color:#CCCCCC;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-left-color: #000000;
+}
+.abc2 {
+	border-left-width:1px;
+	border-top-width:0px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-left-color: #000000;
+}
+.abc3 {
+	border-left-width:1px;
+	border-top-width:0px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-left-color: #000000;
+}
+.STYLE8 {
+	color: #000000;
+	font-weight: bold;
+	font-size: 16px;
+}
+.bm {
+	text-decoration: underline;
+}
+.STYLE10 {
+	font-size: 18px
+}
+.STYLE11 {
+	font-size: 16px
+}
+.abc4 {
+	border-left-width:1px;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-color:#000000;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+}
+.abc5 {
+	border-left-width:1px;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-color:#000000;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+}
+.btn {
+	BORDER-RIGHT: #7b9ebd 1px solid;
+	PADDING-RIGHT: 2px;
+	BORDER-TOP: #7b9ebd 1px solid;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 12px;
+FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde);
+	BORDER-LEFT: #7b9ebd 1px solid;
+	CURSOR: hand;
+	COLOR: black;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #7b9ebd 1px solid
+}
+.abc6 {
+	border-left-width:1px;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-color:#000000;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+}
+.font_tishi {
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-family: "宋体";
+	line-height: 1.8;
+	color: #777777;
+}
+.def11 {
+	border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-bottom-color:#FFFFFF;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.def2 {	border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.def3 {	border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.def4 {	border-left-width:0px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	able-layout:fixed;
+	word-break:break-all;
+	ord-wrap: break-word;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "宋体";
+	line-height: 1.8;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+</style>
+<script language="javascript">   
+function getObject(id)
+{	if(document.getElementById)
+	{	return document.getElementById(id);}
+	else if(document.all)
+	{	return document.all[id];}
+	else if(document.layers)
+	{	return document.layers[id];}
+}
+function shuoming(){
+	getObject('OutText').innerHTML = '';
+	OpenWord();
+}
+function OpenWord(){
+	abc.style.border = 0;
+	ExcelSheet = new ActiveXObject('Word.Application');
+	ExcelSheet.Application.Visible = true;
+	var mydoc = ExcelSheet.Documents.Add('',0,1);
+	myRange = mydoc.Range(0,1) ;
+	var sel = abc.document.body.createTextRange();
+	sel.select();
+	abc.document.execCommand('Copy');
+	sel.moveEnd('character');
+	myRange.Paste();
+	ExcelSheet.ActiveWindow.ActivePane.View.Type=wdPrintView;
+}
+</script>
+</head>
+<body>
+<p align="center">
+<table width="680" border="0" align="center" cellpadding="0" cellspacing="0" class="def1">
+  <tr>
+    <td height="5" align="right" valign="bottom"  width="17%"class="def1" ><span class="STYLE8">申报编号：</span></td>
+    <td class="def"  align="left" width="21%" style="margin-bottom:0px;margin-top:20px" valign="bottom"><span class="STYLE11">&nbsp;</span></td>
+    <td valign="bottom" class="def1" align="right" width="15%"><span class="STYLE8">计划编号：</span></td>
+    <td valign="bottom" class="def" align="left" width="19%">&nbsp;</td>
+    <td valign="bottom" class="def1" align="right" width="11%"><span class="def11"><span class="STYLE8">密级：</span></span></td>
+    <td class="def"  align="left" width="17%" style="margin-bottom:0px;margin-top:20px" valign="bottom">&nbsp;</td>
+  </tr>
+</table>
+<p align="center">&nbsp;</p>
+</p>
+<p>&nbsp;</p>
+<p align="center"><span class="STYLE4"><strong>四川省科技成果转化项目（专项）</strong><br />
+  <strong>申 报 书 </strong></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+
+<table width="680" border="0" align="center" cellpadding="0" cellspacing="0" class="def1">
+  <tr>
+    <td rowspan="9" align="right" class="def1"  width="6%" ></td>
+    <td height="38" colspan="2" align="right"  valign="bottom" class="def1" ><span class="STYLE8">项目名称：</span></td>
+    <td colspan="3"  align="left" valign="bottom" class="def" style="margin-bottom:0px;margin-top:20px"><span class="STYLE11">
+      与全台网智能融合的高标清同播平台    </span></td>
+    <td rowspan="9" align="right" class="def1"  width="15%" ></td>
+  </tr>
+  <tr>
+    <td height="49" colspan="2" align="right" valign="bottom" class="def1" ><span class="STYLE8">申报单位(盖章)：</span></td>
+    <td colspan="3" align="left"  valign="bottom" class="def" style="margin-bottom:0px;margin-top:20px"><span class="STYLE11">
+      成都东方盛行电子有限责任公司    </span></td>
+  </tr>
+  <tr>
+    <td height="49" colspan="2" align="right" valign="bottom" class="def1" ><span class="STYLE8">推荐单位：</span></td>
+    <td colspan="3" align="left"  valign="bottom" class="def" style="margin-bottom:0px;margin-top:20px">成都市科技局</td>
+  </tr>
+  <tr>
+    <td height="44" colspan="2" align="right" valign="bottom" class="def1" ><span class="STYLE8">项目起止年限：</span></td>
+    <td colspan="3" align="left" valign="bottom" class="def" style="margin-bottom:0px;margin-top:20px"><span class="STYLE11">
+      2011-01-04      至
+      2012-12-31    </span></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center"><span  class="STYLE5"><strong>四川省科学技术厅制 </strong></span></p>
+<p align="center">二0&nbsp;&nbsp;&nbsp;年&nbsp;&nbsp;&nbsp;月</p>
+<p align="center">&nbsp;</p>
+
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+
+<table width="680" align="center" cellpadding="3" cellspacing="1" class="tb_data">
+     <caption class="caption_title">企业信息表</caption>
+  <tr>
+	<td align="center" width=14%>单位名称</td>
+    <td colspan="3" align="left">成都东方盛行电子有限责任公司</td>
+	<td width=32% colspan="2" align="center">成立时间</td>
+    <td width=25% colspan="2" align="left"></td>
+  </tr>
+  <tr>
+	<td align="center" width=14%>单位属性</td>
+    <td align="left" colspan="7">有限责任公司, 创新型企业, 高新技术企业</td>
+  </tr>
+   <tr>
+	<td align="center" width=14%>单位地址</td>
+    <td colspan="3" align="left">成都市新南路44号附1号</td>
+	<td width=32% colspan="2" align="center">注册资本</td>
+    <td width=25% colspan="2" align="left">2500万元</td>
+  </tr>
+   <tr>
+	<td align="center" width=14%>所属行业</td>
+    <td colspan="3" align="left">电子信息</td>
+	<td width=32% colspan="2" align="center">企业规模<br/>（上年度产值）</td>
+    <td width=25% colspan="2" align="left">4014万元</td>
+  </tr>
+   <tr>
+	<td align="center" width=14%>企业法人</td>
+    <td colspan="3" align="left">周金勇</td>
+	<td width=32% colspan="2" align="center">项目负责人</td>
+    <td width=25% colspan="2" align="left">马萧萧</td>
+  </tr>
+  <tr >
+	<td width=14%>联系人</td>
+    <td colspan="3" >电话</td>
+	<td colspan="2" >手机</td>
+	<td colspan="2" >传真</td>
+  </tr>
+  <tr >
+    <td width=14%>莫海燕</td>
+    <td colspan="3">028-85441107</td>
+	<td colspan="2">18980871576</td>
+	<td colspan="2">028-85435889</td>
+  </tr>
+    <tr >
+    <td width=14%></td>
+    <td colspan="3"></td>
+	<td colspan="2"></td>
+	<td colspan="2"></td>
+  </tr>
+  <tr>
+	<td align="center" width=14%>单位网址</td>
+    <td colspan="3" align="left">http://www.ds.net.cn</td>
+	<td align="center" width=16%>Email</td>
+    <td align="center" width=16%>888mhy@163.com</td>
+    <td align="left" width=12%>QQ</td>
+    <td align="left" width=13%></td>
+  </tr>
+  <tr >
+	<td align="center" width=14%>协作单位</td>
+    <td colspan="7">无</td>
+  </tr>
+  <tr >
+	<td align="center" width=14%>企业简介(500字)</td>
+    <td height="300" colspan="7" valign="top">   公司是一家专注于高清、标清数字电视音、视频产品,专业电视多媒体设备和系统的研发、生产、集成、销售与服务，提供高清数字电视节目制作、播出系统整体技术解决方案和实施系统集成的专业化高新技术企业和软件企业。
+    公司是中央电视台、四川电视台、成都电视台、昆明电视台、苏州电视台、银川电视台、成飞电视台等100余个用户的媒体资产管理系统、高清数字电视节目制作网络系统和高清数字电视节目同播平台系统定制解决方案提供商。
+    公司现有员工150人，其中专业技术人员约占44%，高级软硬件工程师以上的资深研发人员占33%，并与四川大学、电子科技大学等建立了紧密的合作关系，与国外板卡制造商建立了金牌合作关系；先后研制出行业新产品20余种，其中8项获创新成果奖和10余项专利成果产品。
+    公司是武侯区优秀企业和纳税大户、是重合同守信用企业，获银行AAA信用级等资质证书，通过了ISO9001:2008质量管理体系和“双软”认证，先后承担过国家火炬计划、创新基金、重大创新成果转化等重大项目。自主研发的高标清数字电视节目制作网络技术、高标清多通道流媒体数字电视节目播出网络技术和媒体资产管理技术曾荣获国家广播电影电视总局科技创新一等奖和、2008、200/年度国家广电行业“十大创新企业”第三名、第一名。
+    公司经营效益良好，2010年总资产达到4014万元，实现销售收入3336万元。</td>
+  </tr>
+</table>
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>   
+ <table width="680" align="center" cellpadding="5" cellspacing="1" class="tb_data">
+   <caption class="caption_title">项目信息表</caption>
+  <tr>
+	<td align="center" width=20%>项目名称</td>
+    <td align="left" width=80%>与全台网智能融合的高标清同播平台</td>
+  </tr>
+  <tr>
+	<td width=20% rowspan="2" align="center">项目简介<br/>（500字内）</td>
+    <td align="left" width=80%>
+	1．	核心技术及创新性：
+	2．	企业目前产业化能力：
+	3．	该项目的产业化前景：
+	4．	技术依托和知识产权情况：</td>
+  </tr>
+  <tr>
+    <td align="left" height="150" valign="top"><strong>1． 核心技术及创新性<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>（1）采用万兆总线柔性适配中间件技术，实现与第三方业务系统柔性无缝联结，保证了高清节目和原来的标清节目同步播出。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （2）节目文件迁移归档到播出系统，运用图像模式识别算法，实现高、标清动态适配，完成实时上、下变换播出。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （3）开发了基于AFD标准的节目文件解析延伸处理功能，实现了电视节日智能幅型变换并保证了同期声字幕的显示。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本成果已通过四川省科技厅组织的鉴定，鉴定意见结论&ldquo;该平台在技术上有突破和创新，达到国内同类系统领先水平&rdquo;，获2010年度成都市科技进步三等奖，产品通过了国家广播电影电视总局广播电视计量检测中心的检测。<br />
+<strong>&nbsp;2． 企业目前产业化能力<br />
+&nbsp;&nbsp;&nbsp;</strong>&nbsp;&nbsp;&nbsp; 本项目成果已经在全国100余个省、市级电视台推广应用，使用情况良好，已实现新增产值5802万元，新增利税2071万元。<br />
+<strong>&nbsp;3． 该项目的产业化前景<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>&nbsp;2015年，我国将全面实现数字化电视，建设覆盖全国的高清数字电视系统。届时本项目产品在地市级电视台的市场占有率可达60%以上，省级电视台可达10到20%。初步预计2013年，我们将拥有30%的市场份额，产值将达1亿。<br />
+<strong>4． 技术依托和知识产权情况<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>本项目已申请专利14项（其中发明专利6项），取得8项专利授权，1项软件著作权登记。公司拥有项目的全部自主知识产权。</td>
+  </tr>
+   <tr>
+	<td align="center" width=20%>项目是否<br/>列入国家或<br/>省部级计划</td>
+    <td align="left" width=80%>无</td>	
+  </tr>
+   <tr>
+	<td align="center" width=20%>成果来源</td>
+    <td align="left" width=80%>计划外</td>
+  </tr>
+   <tr>
+	<td align="center" width=20%>成果转化专项</td>
+    <td align="left" width=80%>新一代信息产业</td>
+  </tr>
+  <tr>
+	<td width=20%>成果水平</td>
+    <td width=80%>国内领先</td>
+  </tr>
+  <tr>
+    <td>成果获得科技进步奖情况</td>
+    <td>市（州）级三等奖</td>
+  </tr>
+  <tr>
+    <td>目前工作进展</td>
+    <td height="150" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2009年底，本项目产品已落户成都电视台，成都电视台（CDTV-HD）项目第一阶段的工作基本结束，搭建同播架构、通过调试、检测并已投入试用，成都电视台对本项目给予了高度评价，认为本项目是&ldquo;放眼高清，兼顾标清&rdquo;，是基于网络化、全程文件化，基于全台网实现高清的制作、播出，真正做到了高清制播一体化的一个项目，同时项目在技术上，在行业内有多项突破，并就CDTV-HD第二阶段，对演播室进行改造，增加高清信号源；第三阶段，搭建实验性的高清非编网络系统，增加高清节目生产平台签定了意向性协议，市场前景广阔。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 国家广播电影电视总局广播电视计量检测中心于2010年3月17日对本项目产品进行了检测，并于2010年5月通过四川省科技厅组织召开的鉴定，鉴定意见认为&ldquo;该平台实现了电视节目自动上下变换以及高标清电视节目同步播出，在技术上有突破和创新，达到国内同类系统领先水平。&rdquo;，获得2010年度成都市科技进步三等奖。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本项目成果已经在全国100余个省、市级电视台推广应用，使用情况良好。已实现新增产值5802万元，新增利税2071万元。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 目前，公司公司拟投资1600万元推进项目产业化，对已购买天府软件园3期10号楼9楼共1400平米作为本项目科研生产场地进行装修及适应性改造，并购置本项目实施需要的研发、生产及检测设备和对软件进行升级改进。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 绵阳是国家首批三网融合试点城市，已基本确定采用本项目产品为核心建设新媒体内容管理、服务、发布平台。该平台集内容收集、内容存储、内容管理、内容处理、内容分发于一体，提供QoS/QoE、安全、交互性和可靠性的可管理的多媒体业务，满足视频、文字、音频、图形和数据等多种信息在不同媒体应用的需求。可以在广播电视网、互联网、电信网实现媒体内容&ldquo;无缝融合&rdquo;，通过后台自动转码，使同一内容在不同终端、不同平台采用不同码率、不同分辨率、不同编码格式同步发布成为现实，满足&ldquo;三网融合&rdquo;业务需求。 <br />
+<br />
+<br /></td>
+  </tr>
+  <tr>
+    <td>主要目标</td>
+    <td height="150" valign="top"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本项目总体目标是：&ldquo;放眼高清、兼顾标清&rdquo;，满足我国电视节目同步播出的需求，与现有标清系统融合，构建高/标清共融的技术体系，实现高/标清同步播出。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本项目主要目标包括技术性能指标和经济目标2部分。<br />
+<strong>1、主要技术质量指标</strong><br />
+1）系统技术指标<br />
+Stream RT HD高标清同播系统的技术和性能指标：<br />
+a) &nbsp;HD SDI信号格式HDTV 节目制作图像特性<br />
+&laquo;&nbsp;行有效取样数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1920<br />
+&laquo;&nbsp;帧有效行数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1080<br />
+b) &nbsp;HD SDI信号格式HDTV节目制作图像扫描特性<br />
+&laquo;&nbsp;帧总行数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1125<br />
+&laquo;&nbsp;隔行比&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;2：1（隔行）<br />
+&laquo;&nbsp;帧频（Hz）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25<br />
+&laquo;&nbsp;每行总取样点数R、G、B、Y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2640 <br />
+&laquo;&nbsp;CB、CR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1320<br />
+c)&nbsp;&nbsp;HD-SDI借口特性<br />
+&laquo;&nbsp;信号幅度&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 787 mV<br />
+&laquo;&nbsp;上升时间&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 160ps<br />
+&laquo;&nbsp;下降时间&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;160ps<br />
+&laquo;&nbsp;上升和下降时间的偏差&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;0ps<br />
+&laquo;&nbsp;上冲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;0%<br />
+&laquo;&nbsp;下冲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;0.4%<br />
+&laquo;&nbsp;直流电平偏移&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;23.0mV<br />
+&laquo;&nbsp;100kHz高通滤波抖动&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.19UI<br />
+&laquo;&nbsp;10kHz高通滤波抖动&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.3UI<br />
+d) &nbsp;数字接口特性<br />
+&laquo;&nbsp;抖动&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;0.007UIpp<br />
+&laquo;&nbsp;主通道电平&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;0.97Vpp<br />
+e) &nbsp;AB通道数字音频特性<br />
+&laquo;&nbsp;幅频特性 频率&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20-20kHZ<br />
+&laquo;&nbsp;幅频特性 幅度&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0dB<br />
+&laquo;&nbsp;信噪比&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;119.2dB<br />
+&laquo;&nbsp;总谐波失真&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;0.005%<br />
+&laquo;&nbsp;串话&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;-147.2dB<br />
+&laquo;&nbsp;最大输入电平&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;0.0dBFS<br />
+&laquo;&nbsp;电平差&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.00dB<br />
+&laquo;&nbsp;相位差&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.00dB<br />
+f)&nbsp; CH1 CH2嵌入音频特性<br />
+&laquo;&nbsp;幅频特性 频率&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50-16k*HZ<br />
+&laquo;&nbsp;幅频特性 幅度&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0dB<br />
+&laquo;&nbsp;信噪比&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 119.2dB<br />
+&laquo;&nbsp;总谐波失真&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.005%<br />
+&laquo;&nbsp;串话&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -147.2dB<br />
+&laquo;&nbsp;最大输入电平&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;0.0dBFS<br />
+&laquo;&nbsp;电平差&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.00dB<br />
+&laquo;&nbsp;相位差&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.00dB</p>
+<p>2）软硬件平台<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 软件设计基于开放系统概念，遵循工业标准和协议。软件平台首先是操作系统，本系统对操作系统的基本要求是：<br />
+a)&nbsp; 支持多任务并发，支持多进程多线程机制；<br />
+b)&nbsp; &nbsp;成熟，具有开放性；<br />
+c)&nbsp; 具有远期支持；<br />
+d)&nbsp; 安全性；<br />
+e)&nbsp; 稳定性；<br />
+f)&nbsp; 可移植性。&nbsp;&nbsp;&nbsp;<br />
+<strong>2、主要经济指标</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本项目执行期两年内（2011年1月～2012年12月），预计实现销售收入8000万元，累计实现利润1374万元，累计上缴税金661万元。其中，2011年销售10套，实现销售收入2000万元，净利润148万元，税金100万元；2012年销售30套，实现销售收入6000万元，净利润1227万元，税金561万元。<br />
+&nbsp;</p></td>
+  </tr>
+</table>
+  
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+     <table width="680" align="center" cellpadding="3" cellspacing="1" class="tb_data">
+  <caption class="caption_title">项目预算表（金额单位：万元）</caption> 
+  <tr>
+    <td width="11%">序号</td>
+    <td colspan="2">预算科目名称</td>
+    <td width="19%" align="center">合计</td>
+    <td colspan="2" width="19%" align="center">财政科技经费</td>
+    <td width="19%" align="center">自筹经费</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td colspan="2"><strong>一、经费支出</strong></td>
+    <td align="center">1600</td>
+    <td colspan="2" align="center">100</td>
+    <td align="center">1500</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td colspan="2">1、设备费</td>
+    <td align="center">900</td>
+    <td colspan="2" align="center">40</td>
+    <td align="center">860</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td colspan="2">（1）购置设备费</td>
+    <td align="center">600</td>
+    <td colspan="2" align="center">40</td>
+    <td align="center">560</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td colspan="2">（2）试制设备费</td>
+    <td align="center">0</td>
+    <td colspan="2" align="center">0</td>
+    <td align="center">0</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td colspan="2">（3）设备改造与租赁费</td>
+    <td align="center">300</td>
+    <td colspan="2" align="center">0</td>
+    <td align="center">300</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td colspan="2">2、材料费</td>
+    <td align="center">170</td>
+    <td colspan="2" align="center">20</td>
+    <td align="center">150</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td colspan="2">3、测试化验加工费</td>
+    <td align="center">100</td>
+    <td colspan="2" align="center">10</td>
+    <td align="center">90</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td colspan="2">4、燃料动力费</td>
+    <td align="center">30</td>
+    <td colspan="2" align="center">10</td>
+    <td align="center">20</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td colspan="2">5、差旅费</td>
+    <td align="center">150</td>
+    <td colspan="2" align="center">20</td>
+    <td align="center">130</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td colspan="2">6、会议费</td>
+    <td align="center">50</td>
+    <td colspan="2" align="center">0</td>
+    <td align="center">50</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td colspan="2">7、国际合作与交流费</td>
+    <td align="center">0</td>
+    <td colspan="2" align="center">0</td>
+    <td align="center">0</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td colspan="2">8、出版/文献/信息传播/知识产权事务费</td>
+    <td align="center">10</td>
+    <td colspan="2" align="center">0</td>
+    <td align="center">10</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td colspan="2">9、劳务费</td>
+    <td align="center">130</td>
+    <td colspan="2" align="center">0</td>
+    <td align="center">130</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td colspan="2">10、专家咨询费</td>
+    <td align="center">10</td>
+    <td colspan="2" align="center">0</td>
+    <td align="center">10</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td colspan="2">11、管理费</td>
+    <td align="center">50</td>
+    <td colspan="2" align="center">0</td>
+    <td align="center">50</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td colspan="2">12、</td>
+    <td align="center"></td>
+    <td colspan="2" align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td colspan="2">13、</td>
+    <td align="center"></td>
+    <td colspan="2" align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td colspan="2"><strong>二、经费来源</strong></td>
+    <td align="center">1600</td>
+    <td colspan="2" align="center">100</td>
+    <td align="center">1500</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td colspan="2">1、从省科技厅获得的资助</td>
+    <td align="center">100</td>
+    <td colspan="2" align="center">100</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td colspan="2">2、其他来源</td>
+    <td align="center">1500</td>
+    <td colspan="2" align="center">/</td>
+    <td align="center">1500</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td colspan="2">（1）其他财政拨款</td>
+    <td align="center">0</td>
+    <td colspan="2" align="center">/</td>
+    <td align="center">0</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td colspan="2">（2）单位自有货币资金</td>
+    <td align="center">1500</td>
+    <td colspan="2" align="center">/</td>
+    <td align="center">1500</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td colspan="2">（3）其他资金</td>
+    <td align="center">0</td>
+    <td colspan="2" align="center">/</td>
+    <td align="center">0</td>
+  </tr>
+  <tr>
+    <td colspan="2">/</td>
+    <td width="18%">第1年</td>
+    <td>第2年</td>
+    <td colspan="2">第3年</td>
+    <td>第4年</td>
+  </tr>
+  <tr>
+    <td rowspan="2">财政科技经费<br />
+    拨付进度申请</td>
+    <td width="14%">金额</td>
+    <td align="center">100</td>
+    <td align="center"></td>
+    <td colspan="2" align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>比例（％）</td>
+    <td align="center">100</td>
+    <td align="center"></td>
+    <td colspan="2" align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td rowspan="2">自筹经费投入</td>
+    <td>金额</td>
+    <td align="center">800</td>
+    <td align="center">700</td>
+    <td colspan="2" align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>比例（％）</td>
+    <td align="center">53.33</td>
+    <td align="center">46.67</td>
+    <td colspan="2" align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+            <td rowspan="3">资金投入及<br />
+            预期经济效益</td>
+            <td width="19%" rowspan="2">总投入</td>
+            <td width="15%" rowspan="2">企业自筹</td>
+            <td width="15%" rowspan="2">申请金额</td>
+            <td width="19%" colspan="2">预计经济效益</td>
+            <td width="17%" rowspan="2">投入产出比</td>
+          </tr>
+  <tr>
+    <td>2011-2013年累计新增产值</td>
+    <td>2011-2013年累计实现利税</td>
+  </tr>
+        <tr>
+            <td align="center">1600万元</td>
+            <td align="center">1500万元</td>
+            <td align="center">100万元</td>
+            <td align="center">18000万元</td>
+            <td align="center">5364万元</td>
+            <td align="center">3.35</td>
+          </tr>
+          <tr>
+            <td width="15%">带动社会投入</td>
+            <td height="150" colspan="6" valign="top">    《广电总局关于促进高清电视发展的通知》说，高清电视是广播电视技术进步的必然趋势，是数字电视的重要组成部分，是发展先进文化满足人民群众精神文化需求的内在要求，也是促进民族电子工业发展和“保增长、保民生、保稳定”的客观需求。同时高清电视的发展也是为了尽快培养高清电视市场，促进国内电视机、机顶盒投资、研发、生产的升级和跨越，推进数字电视进程，有效提升广播电视服务水平，振兴民族电子工业，拉动国内需求。本项目产品将带动高清电视行业及三网融化相关领域市场需求，包括上游的内容制作，电视机机顶盒等设备，下游的播放服务。根据估算，本项目带动社会投入的比值为1：20，及32000万元。</td>
+          </tr>
+          <tr>
+            <td>社会效益</td>
+            <td height="150" colspan="6" valign="top">    高清电视是推动经济社会发展的客观需求。在全球金融危机影响下，我国电子工业增长回落，订单减少，招商引资难度增大，企业成本上升，市场竞争日趋激烈。发展高清数字电视技术，促进高标清电视内容同播以及三网融合将为高清机顶盒生产销售和安装使用工作，为平板电视、机顶盒等终端产业带来巨大的商机，对国家电子信息产业振兴起到积极的推动作用。
+可以说，高标清电视节目同步播出系统是顺势而为，应运而生。发展高清电视是党中央、国务院高度重视的重点项目，它顺应了“保增长、保民生、保稳定”的战略方针，是一项惠及百姓精神文化生活、促进广电产业升级、拉动各产业链需求的优质工程。推动大型电视台全程高标清同播一体化平台产业化和高清电视数字化升级改造健康有序发展能够产生巨大的社会效益。本项目符合数字电视未来发展方向，填补国内纯软件型视频播出系统的空白，可替代进口产品，打破国外对我国数字播出领域的技术垄断，具有显著的社会效益。
+本项目产品具有良好的社会效益。
+</td>
+          </tr>
+          <tr>
+          <td colspan="7">注：投入产出比＝项目有限期内利税之和÷总投入</td>
+          </tr>  
+         </table>
+<span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span>
+
+<table width="680" border="1" align="center" cellpadding="3" cellspacing="1">
+  <tr>
+    <td colspan="2" width="653" height="32" align="center"><strong>申 报 单 位 意 见</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><p>&nbsp;</p>
+      <p><span lang="EN-US" xml:lang="EN-US"> </span></p>
+      <p><span lang="EN-US" xml:lang="EN-US"> </span><span lang="EN-US" xml:lang="EN-US"> </span></p>
+      <p><span lang="EN-US" xml:lang="EN-US"> </span></p>
+      <p>  负责人（签字）：<span lang="EN-US" xml:lang="EN-US">      </span>(单位公章）<span lang="EN-US" xml:lang="EN-US"></span></p>
+      <p><span lang="EN-US" xml:lang="EN-US">                          </span>年<span lang="EN-US" xml:lang="EN-US">    </span>月<span lang="EN-US" xml:lang="EN-US">    </span>日<span lang="EN-US" xml:lang="EN-US"></span></p></td>
+  </tr>
+  <tr>
+    <td colspan="2" height="33" align="center"><strong>市、州（扩权县）科技局或部门推荐意见</strong></td>
+  </tr>
+  <tr>
+    <td valign="top" colspan="2"><p><span lang="EN-US" xml:lang="EN-US"> </span><span lang="EN-US" xml:lang="EN-US"> </span></p>
+      <p><span lang="EN-US" xml:lang="EN-US"> </span></p>
+      <p><span lang="EN-US" xml:lang="EN-US"> </span></p>
+      <p><span lang="EN-US" xml:lang="EN-US"> </span></p>
+      <p>  负责人（签字）：<span lang="EN-US" xml:lang="EN-US">      </span>(单位公章）<span lang="EN-US" xml:lang="EN-US"></span></p>
+      <p><span lang="EN-US" xml:lang="EN-US">                          </span>年<span lang="EN-US" xml:lang="EN-US">    </span>月<span lang="EN-US" xml:lang="EN-US">    </span>日<span lang="EN-US" xml:lang="EN-US"></span></p></td>
+  </tr>
+
+  <tr>
+    <td width="104"><p align="center">专家组意见 </p></td>
+    <td width="489" valign="top"><p align="center">&nbsp;</p>
+      <p align="center">&nbsp;</p>
+      <p>签   字 <br />
+        年   月   日 </p></td>
+  </tr>
+  <tr>
+    <td width="104"><p align="center">项目办公室意见 </p></td>
+    <td width="489" valign="top"><p align="left">&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>公   章 <br />
+        年   月   日 </p></td>
+  </tr>
+</table>
+</body>
+</html>
